@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CTF Operazione TRIDENT SHIELD per nave Vespucci">
+  <title>TRIDENT SHIELD CTF - Vespucci</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-mode="team" data-team="vespucci">
+  <header class="topbar team-topbar">
+    <div>
+      <p class="eyebrow">GRUPPO 04</p>
+      <h1>Vespucci</h1>
+      <p class="subtitle">Index operativo dedicato alla nave Vespucci: CTF, flag dinamiche a 4 domini, timer da 20 minuti e punteggio nave.</p>
+      <nav class="page-links" aria-label="Navigazione pagine nave">
+        <a href="index.html">Overview</a>
+        <a  href="index-cavour.html">Cavour</a><a  href="index-garibaldi.html">Garibaldi</a><a  href="index-trieste.html">Trieste</a><a class="current" href="index-vespucci.html">Vespucci</a>
+      </nav>
+    </div>
+    <div class="mission-card">
+      <span>Mission Status</span>
+      <strong id="mission-status">Operational</strong>
+      <meter id="mission-meter" min="0" max="100" value="0"></meter>
+    </div>
+  </header>
+
+  <main class="app-shell">
+    <section class="dashboard" aria-label="Dashboard punteggio nave">
+      <article class="score-hero">
+        <span>Punteggio totale</span>
+        <strong id="total-score">0</strong>
+        <small id="completed-count">0/8 CTF completate</small>
+      </article>
+      <article><span>Mission Success</span><strong id="metric-mission">0%</strong><small>Peso 30%</small></article>
+      <article><span>Detection Time</span><strong id="metric-detection">0%</strong><small>Peso 20%</small></article>
+      <article><span>Incident Response</span><strong id="metric-response">0%</strong><small>Peso 20%</small></article>
+      <article><span>Cyber-Social Impact</span><strong id="metric-impact">0%</strong><small>Peso 20%</small></article>
+      <article><span>Team Coordination</span><strong id="metric-coordination">0%</strong><small>Peso 10%</small></article>
+    </section>
+
+    <section class="team-scoreboard ship-only" aria-label="Scoreboard nave Vespucci">
+      <div class="scoreboard-head single-head">
+        <div>
+          <p class="eyebrow">Scoreboard nave</p>
+          <h2>Vespucci</h2>
+          <p>Le componenti partono libere. Se dopo 20 minuti non viene validata la flag, la nave perde i componenti collegati ai domini non risolti.</p>
+        </div>
+      </div>
+      <div class="team-grid single-ship-grid" id="team-grid"></div>
+      <div class="scoreboard-bottom single-log">
+        <div class="score-log-panel">
+          <h3>Registro punteggi nave</h3>
+          <div id="score-log"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="layout">
+      <aside class="mission-map">
+        <div class="map-panel">
+          <h2>Attack Path</h2>
+          <ol id="attack-path"></ol>
+        </div>
+        <div class="domain-grid" id="domain-grid"></div>
+      </aside>
+
+      <section class="content">
+        <nav class="tabs" id="tabs" aria-label="Moduli CTF"></nav>
+        <div id="module-view"></div>
+      </section>
+    </section>
+
+    <section class="final-mission">
+      <div>
+        <p class="eyebrow">Final Mission</p>
+        <h2>Mantenere operativa la missione navale</h2>
+        <p>Il punteggio finale della nave combina CTI, malware analysis, OSINT, decision making, AI, Cyber-Social Security e MDO.</p>
+      </div>
+      <div class="weights">
+        <label>Mission Success <input data-final="mission" type="range" min="0" max="100" value="0"></label>
+        <label>Detection Time <input data-final="detection" type="range" min="0" max="100" value="0"></label>
+        <label>Incident Response <input data-final="response" type="range" min="0" max="100" value="0"></label>
+        <label>Cyber-Social Impact Reduction <input data-final="impact" type="range" min="0" max="100" value="0"></label>
+        <label>Team Coordination <input data-final="coordination" type="range" min="0" max="100" value="0"></label>
+      </div>
+    </section>
+  </main>
+
+  <template id="module-template">
+    <article class="module">
+      <div class="module-head">
+        <div>
+          <p class="eyebrow module-index"></p>
+          <h2 class="module-title"></h2>
+          <p class="module-mission"></p>
+        </div>
+        <div class="module-score">
+          <span>Modulo</span>
+          <strong></strong>
+        </div>
+      </div>
+      <div class="challenge-grid"></div>
+    </article>
+  </template>
+
+  <template id="challenge-template">
+    <article class="challenge">
+      <div class="challenge-head">
+        <span class="badge"></span>
+        <strong class="challenge-title"></strong>
+      </div>
+      <p class="challenge-brief"></p>
+      <div class="evidence"></div>
+      <div class="tasks"></div>
+      <form class="flag-form">
+        <label>
+          Flag
+          <input name="flag" autocomplete="off" placeholder="FLAG{...}">
+        </label>
+        <button type="submit">Validare</button>
+      </form>
+      <p class="feedback" aria-live="polite"></p>
+    </article>
+  </template>
+  <script src="app.js"></script>
+</body>
+</html>

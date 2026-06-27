@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Overview scoreboard Operazione TRIDENT SHIELD">
+  <title>TRIDENT SHIELD - Overview Scoreboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-mode="overview">
+  <header class="topbar overview-topbar">
+    <div>
+      <p class="eyebrow">Fleet Overview</p>
+      <h1>TRIDENT SHIELD</h1>
+      <p class="subtitle">Scoreboard riepilogativa: mostra solo le navi, i componenti persi e il punteggio aggiornato dai quattro index operativi.</p>
+      <nav class="page-links" aria-label="Apri index nave">
+        <a href="index-cavour.html">Cavour</a><a href="index-garibaldi.html">Garibaldi</a><a href="index-trieste.html">Trieste</a><a href="index-vespucci.html">Vespucci</a>
+      </nav>
+    </div>
+    <div class="mission-card">
+      <span>Overview</span>
+      <strong>Fleet Score</strong>
+      <button id="reset-scoreboard" type="button">Reset scoreboard</button>
+    </div>
+  </header>
+
+  <main class="app-shell overview-shell">
+    <section class="team-scoreboard overview-only" aria-label="Overview scoreboard flotte">
+      <div class="scoreboard-head single-head">
+        <div>
+          <p class="eyebrow">Riepilogo flotte</p>
+          <h2>Navi, perdite e punteggio</h2>
+          <p>La pagina si aggiorna dallo stato condiviso: ogni index nave salva le flag risolte, i punti dominio e le componenti perse per timeout.</p>
+        </div>
+      </div>
+      <div class="team-grid overview-grid" id="team-grid"></div>
+      <div class="scoreboard-bottom">
+        <div class="leaderboard-panel">
+          <h3>Classifica</h3>
+          <div id="team-leaderboard"></div>
+        </div>
+        <div class="score-log-panel">
+          <h3>Registro punteggi</h3>
+          <div id="score-log"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
