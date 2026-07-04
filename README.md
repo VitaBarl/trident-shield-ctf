@@ -32,8 +32,6 @@ On GitHub Pages, the public overview is:
 
 - 7 moduli didattici piu missione finale.
 - 7 training modules plus final mission.
-- Ogni modulo contiene almeno 4 CTF base per partecipanti senza esperienza cybersecurity.
-- Each module includes at least 4 beginner CTFs for participants with no cybersecurity background.
 - Challenge CTF con evidenze, task, suggerimenti progressivi e validazione flag.
 - CTF challenges with evidence, tasks, progressive hints, and flag validation.
 - Tooltip contestuali `?` per orientarsi tra materiali, evidenze, task, domini e generazione flag.

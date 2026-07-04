@@ -1,8 +1,5 @@
 # Final Mission - Blue Team Recovery Operations
 
-> Percorso base: questo modulo include 4 CTF introduttive nell'app, pensate per chi non ha mai lavorato con la cybersecurity.
-> Beginner path: this module includes 4 introductory CTFs in the app for participants with no cybersecurity experience.
-
 ## Italiano
 
 ### Situazione
