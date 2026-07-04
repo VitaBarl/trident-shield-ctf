@@ -1,0 +1,7 @@
+2026-07-08T03:12:44Z VPN-GW-02 auth_success user=ops.assistant src=185.199.109.21 geo=RO device=new risk=high
+2026-07-08T03:14:02Z MAIL-GW attachment_allowed msgid=<nav-8841> sender=briefing@med-taskgroup.example file=ROE_Update.xlsm sha256=91b4b87fb8bbf6e987abbb0c76b0ed1d0bb2010bb8120f4fdd91cf9cf0f6657c
+2026-07-08T03:17:31Z EDR alert host=OPS-WS-17 user=ops.assistant technique=T1059.001 powershell_encoded=true severity=high
+2026-07-08T03:21:08Z PROXY allowed host=OPS-WS-17 dst=sync-mediterranean-control.example uri=/api/v2/nav/beacon bytes_out=18432
+2026-07-08T03:48:19Z AD group_change actor=ops.assistant target=FleetNavShare role=writer result=success
+2026-07-08T04:02:55Z FILE-SRV modified path=\\FleetNavShare\orders\FRAGO-219A.pdf user=ops.assistant hash_changed=true
+2026-07-08T04:19:06Z SIEM correlation name=Possible_Order_Tampering entities=OPS-WS-17,FleetNavShare severity=critical

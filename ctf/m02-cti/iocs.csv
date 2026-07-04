@@ -1,0 +1,7 @@
+type,value,notes
+sha256,91b4b87fb8bbf6e987abbb0c76b0ed1d0bb2010bb8120f4fdd91cf9cf0f6657c,malicious macro dropper
+domain,sync-mediterranean-control.example,C2 staging domain
+ip,198.51.100.44,C2 endpoint in training range
+uri,/api/v2/nav/beacon,beacon path
+mutex,Global\TridentCache,malware single-instance marker
+registry,HKCU\Software\Microsoft\Windows\CurrentVersion\Run\TridentSync,persistence key

@@ -1,0 +1,11 @@
+HUMINT SOURCE H-14
+Time: 2026-07-08 04:36Z
+Reliability: B2
+
+Source reports unusual anxiety among two watch teams after a "new order" circulated on a private family chat.
+The order allegedly redirected a patrol box by 18 nautical miles and claimed legal approval from coalition HQ.
+Operations staff state the official tasking board was not changed by the commander.
+
+Assessment:
+The adversary is likely using a cyber-enabled document manipulation to generate informational and cognitive effects.
+The potential physical consequence is navigation error or delayed response to distress traffic.

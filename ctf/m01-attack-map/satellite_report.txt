@@ -1,0 +1,11 @@
+SATELLITE TASKING SUMMARY
+Provider: training-sat-sim
+Frame: MED-CENTRAL-20260708-0445Z
+
+Observation:
+- Patrol vessel TG-SPEAR appears 11.8 NM east of planned patrol box.
+- No hostile kinetic contact observed.
+- AIS track shows two short jumps inconsistent with visual position.
+
+Analyst note:
+This supports a physical-domain effect caused by degraded trust in digital navigation/order data, not direct ship damage.

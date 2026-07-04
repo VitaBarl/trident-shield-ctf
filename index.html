@@ -11,10 +11,14 @@
   <header class="topbar overview-topbar">
     <div>
       <p class="eyebrow">Fleet Overview</p>
+      <p class="program-title">Cyber-Social Security</p>
       <h1>TRIDENT SHIELD</h1>
-      <p class="subtitle">Scoreboard riepilogativa: mostra solo le navi, i componenti persi e il punteggio aggiornato dai quattro index operativi.</p>
+      <p class="subtitle">Scoreboard riepilogativa: prima il risultato delle quattro navi, poi il registro di cosa accade durante la missione.</p>
       <nav class="page-links" aria-label="Apri index nave">
-        <a href="index-cavour.html">Cavour</a><a href="index-garibaldi.html">Garibaldi</a><a href="index-trieste.html">Trieste</a><a href="index-vespucci.html">Vespucci</a>
+        <a href="https://vitabarl.github.io/trident-shield-ctf/index-cavour.html" target="_blank" rel="noopener noreferrer">Cavour</a>
+        <a href="https://vitabarl.github.io/trident-shield-ctf/index-garibaldi.html" target="_blank" rel="noopener noreferrer">Garibaldi</a>
+        <a href="https://vitabarl.github.io/trident-shield-ctf/index-trieste.html" target="_blank" rel="noopener noreferrer">Trieste</a>
+        <a href="https://vitabarl.github.io/trident-shield-ctf/index-vespucci.html" target="_blank" rel="noopener noreferrer">Vespucci</a>
       </nav>
     </div>
     <div class="mission-card">
@@ -28,24 +32,31 @@
     <section class="team-scoreboard overview-only" aria-label="Overview scoreboard flotte">
       <div class="scoreboard-head single-head">
         <div>
-          <p class="eyebrow">Riepilogo flotte</p>
+          <p class="eyebrow">Risultato delle 4 navi</p>
           <h2>Navi, perdite e punteggio</h2>
-          <p>La pagina si aggiorna dallo stato condiviso: ogni index nave salva le flag risolte, i punti dominio e le componenti perse per timeout.</p>
+          <p>Ogni card mostra punteggio, integrita, componenti persi e link diretto al dettaglio nave in una nuova scheda.</p>
         </div>
       </div>
       <div class="team-grid overview-grid" id="team-grid"></div>
       <div class="scoreboard-bottom">
         <div class="leaderboard-panel">
-          <h3>Classifica</h3>
+          <h3>Classifica / Ranking</h3>
           <div id="team-leaderboard"></div>
         </div>
         <div class="score-log-panel">
-          <h3>Registro punteggi</h3>
+          <h3>Cosa accade / What happens</h3>
           <div id="score-log"></div>
         </div>
       </div>
     </section>
   </main>
+
+  <footer class="site-footer team-site-footer" aria-label="Cyber-Social Security">
+    <div class="team-footer-inner">
+      <p class="footer-css-title">Cyber-Social Security</p>
+      <img class="footer-banner" src="assets/logos/banner_CTF.png" alt="UniBa SERLAB SER&P CrASte">
+    </div>
+  </footer>
 
   <script src="app.js"></script>
 </body>

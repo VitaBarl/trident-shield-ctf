@@ -1,0 +1,7 @@
+decision,mission_success,detection_time,incident_response,impact_reduction,coordination,notes
+Authenticate command through alternate channel,15,10,5,15,10,reduces cognitive damage from deepfake
+Switch to inertial/manual navigation,20,5,10,10,5,reduces GPS spoofing physical impact
+Publish verified correction,5,0,5,20,10,reduces informational spread
+Isolate affected workstation,10,10,20,5,5,contains malware-driven effects
+Ignore public narrative,0,0,0,-15,-10,increases cognitive and informational impact
+Delay decision for full certainty,-10,-15,-10,-5,-5,mission tempo degrades

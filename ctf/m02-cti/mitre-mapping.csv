@@ -1,0 +1,7 @@
+tactic,technique_id,technique,evidence
+Initial Access,T1566.001,Spearphishing Attachment,email with ROE_Update.xlsm
+Execution,T1059.001,PowerShell,encoded PowerShell on OPS-WS-17
+Persistence,T1060,Registry Run Keys,TridentSync Run key
+Defense Evasion,T1027,Obfuscated Files or Information,encoded command and macro
+Command and Control,T1071.001,Web Protocols,HTTPS beacon to C2
+Impact,T1565.002,Transmitted Data Manipulation,modified FRAGO in FleetNavShare

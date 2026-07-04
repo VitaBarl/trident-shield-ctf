@@ -1,0 +1,15 @@
+DEEPFAKE TRIAGE REPORT
+
+Media: commander_withdrawal_video.mp4
+Status: training artifact; video file not included
+
+Findings:
+- Lip closure inconsistent with bilabial phonemes at 00:13 and 00:28.
+- Eye blink cadence is regular at 4.0 second intervals.
+- Audio room tone does not match official briefing room reference.
+- Compression blocks around jawline differ from background.
+
+Assessment:
+Likely synthetic or manipulated video.
+Recommended action:
+Authenticate command through secure alternate channel before operational changes.

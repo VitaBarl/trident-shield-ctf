@@ -137,6 +137,62 @@ const modules = [
   }
 ];
 
+const beginnerModuleTitles = {
+  m1: ["Orientarsi nelle evidenze", "Riconoscere il vettore iniziale", "Separare dominio e impatto", "Costruire una mini timeline"],
+  m2: ["Che cosa e un IOC", "Leggere una regola YARA", "Associare TTP e comportamento", "Attribuzione guidata"],
+  m3: ["Primo triage Blue Team", "Riconoscere phishing semplice", "Contenimento di base", "Ripristino missione"],
+  m4: ["Leggere le stringhe", "Trovare persistenza base", "Capire un flusso PCAP", "Descrivere un payload"],
+  m5: ["Ruoli e responsabilita", "Priorita in un inject", "Decisione contro deepfake", "Continuita operativa"],
+  m6: ["Correlare due fonti", "Distinguere rumore e segnale", "Timeline ibrida base", "Effetto fisico da dati AIS"],
+  m7: ["Controllare una fonte", "Segnali di deepfake", "Email generata da LLM", "Decisione con fiducia recuperata"],
+  final: ["Checklist recovery", "Coordinare i ruoli", "Ridurre impatto cyber-sociale", "Missione ancora operativa"]
+};
+
+const beginnerModuleBriefs = {
+  m1: "Esercizio base per imparare a collegare evidenze semplici ai quattro domini.",
+  m2: "Esercizio base per leggere indicatori e comportamenti avversari senza esperienza CTI precedente.",
+  m3: "Esercizio base per capire cosa osserva e decide un Blue Team nelle prime fasi.",
+  m4: "Esercizio base su artefatti malware sicuri: stringhe, memoria e rete.",
+  m5: "Esercizio base per prendere decisioni guidate durante un turno di wargame.",
+  m6: "Esercizio base per correlare segnali cyber, social, OSINT e AIS.",
+  m7: "Esercizio base per riconoscere contenuti sintetici e verificare fonti.",
+  final: "Esercizio base per integrare recovery tecnica, comunicazione e continuita operativa."
+};
+
+const beginnerDomainKeys = ["cyber", "information", "cognitive", "physical"];
+const beginnerDomainLabels = ["Cyber", "Information", "Cognitive", "Physical"];
+const beginnerChallengeSpecs = {};
+let beginnerHashCounter = 1;
+
+Object.entries(beginnerModuleTitles).forEach(([moduleId, titles]) => {
+  beginnerChallengeSpecs[moduleId] = titles.map((title, index) => {
+    const hashKeys = Object.fromEntries(beginnerDomainKeys.map(key => {
+      const hashKey = `bk${String(beginnerHashCounter).padStart(3, "0")}`;
+      beginnerHashCounter += 1;
+      return [key, hashKey];
+    }));
+    return {
+      id: `${moduleId}-base-${index + 1}`,
+      type: "BASE",
+      title: `Base ${index + 1} - ${title}`,
+      brief: beginnerModuleBriefs[moduleId],
+      evidence: [
+        `Scenario guidato ${index + 1}: osserva una evidenza tecnica, una informativa, una cognitiva e una fisica.`,
+        "Non serve esperienza pregressa: cerca la parola chiave piu semplice per ogni dominio.",
+        "Usa i suggerimenti se non sai da dove partire."
+      ],
+      tasks: beginnerDomainLabels.map(label => `Riconoscere il dominio ${label}`),
+      hashKeys
+    };
+  });
+});
+
+Object.entries(beginnerChallengeSpecs).forEach(([moduleId, specs]) => {
+  const module = modules.find(item => item.id === moduleId);
+  if (!module) return;
+  module.challenges = [...specs.map(({ hashKeys, ...challenge }) => challenge), ...module.challenges];
+});
+
 const domains = [
   ["Cyber", "reti, workstation, comunicazioni"],
   ["Information", "fake news e documenti manipolati"],
@@ -436,6 +492,33 @@ const ctfTooltips = {
   }
 };
 
+Object.values(beginnerChallengeSpecs).flat().forEach(spec => {
+  const puzzle = {};
+  beginnerDomainKeys.forEach((key, index) => {
+    const label = beginnerDomainLabels[index];
+    puzzle[key] = {
+      label,
+      hashKey: spec.hashKeys[key],
+      hints: [
+        `Guarda l'evidenza piu semplice collegata al dominio ${label}.`,
+        `Inserisci una parola chiave breve in inglese per ${label}; evita frasi lunghe.`
+      ]
+    };
+  });
+  domainPuzzles[spec.id] = puzzle;
+  ctfTooltips[spec.id] = {
+    flow: "Esercizio base: leggi le tre evidenze, identifica una parola chiave per ciascun dominio e poi valida la flag generata.",
+    evidence: "Ogni evidenza e pensata per indicare un dominio. Parti dal significato piu semplice, non da analisi avanzate.",
+    flag: "La flag nasce dalla combinazione dei quattro domini. Completa prima Cyber, Information, Cognitive e Physical.",
+    domains: {
+      cyber: "Cerca un elemento tecnico: log, email, account, processo, rete o contenimento.",
+      information: "Cerca un contenuto o canale informativo: post, news, documento, messaggio o fonte.",
+      cognitive: "Cerca l'effetto sulle persone: fiducia, dubbio, pressione, ansia, morale o autenticazione.",
+      physical: "Cerca l'effetto operativo: rotta, AIS, servizio, navigazione, missione o asset fisico."
+    }
+  };
+});
+
 const answerHashes = {
   "k01": [
     "08e9473b77c9ba76",
@@ -627,6 +710,12 @@ const answerHashes = {
   ]
 };
 
+const beginnerAnswerHashes = ["77e86824b1bccafe","9aee6b1bcdf617d8","504c06036fae7c18","aad6faa6418dde8f","72d90af393d61072","7ee66c4f1536ac84","c7651f4560224a00","7cc8ad34d4fc6991","2762a0671924e3e5","9978a4cfcd0d0e67","70847af69e59b1d8","208a2a3f8f27e746","d789d09c824e58b3","e52e1d57122da276","599953a34be8d3fd","365feefa2df3a974","c1fb44c72628eae4","83762a435ee1d060","e1d8450e7102fec1","3dc0db889344edf0","d438d5fafef22663","ac4e1b16b6a71a7a","7795096b5328d050","f1c590f26944f075","bf5505174a73b283","137af6cbaa9aa3ad","908de70b56bbe346","d0d6efb188ea82c3","033278922ccddea3","731eefc7c4b65973","f42a1fbf8944ccf2","78532b626e71177e","8aec4b812b783f10","255633313f2c2771","ddd2c0300d77397b","6f3c603b812d364f","72d90af393d61072","86f56fe8221f029d","d0e9b3f796e825c7","c01a38705dd65dee","083f84e746bfef32","6a19bc0527aef57c","0c50cea35a376f01","565be3f826b6ada9","7f7bb49b71521fe4","b194d92018d60742","599953a34be8d3fd","8de6e8d6c611c87d","e5089e403ce9873d","3778e03f06a2fb0e","43cadfd00f803bfe","0b060acf4d677bc6","e3091486247e1aa0","395c9840d9e9d873","0fcb3bd6af438911","faff10f777c09e17","e420ec7a97e369cc","7b433a9708d38066","30478949b60c5881","26f2824b3e21a164","290678ae3ac225a8","14abfcd75f779521","c7651f4560224a00","7cc8ad34d4fc6991","14da29c4716bedc3","4a3fa3f835d928e5","ac6251ebbc3d0404","8de6e8d6c611c87d","29d390f555ad0b17","a257b4bc67bc26f6","188a5356a091db74","628db0c7598820b1","2d75b76b2dcf4656","56ccd012fa61dd4b","7c6b29d310b4912d","4b6fd1496e15d38f","4c2f023b97855c32","170b1d0e0bd09cf8","51dd4db5a685e7a7","e13e2153e8f3ccf3","77e86824b1bccafe","a3870384e1cee434","b9ae3c26cf8f81cf","208a2a3f8f27e746","c4cb1e84812004f5","5630417b75cf5be2","6b015383a5d8a9e0","6acc99af99f6b3a1","c01a38705dd65dee","ece622d53611da8b","ede3530b0635d851","9a0019c1917ae001","deb9935a170900db","fb000cedf5e9c32e","7415cdbdd2b7c991","8a14b7051cf47a8b","f7e99605443cbff4","56ccd012fa61dd4b","c7651f4560224a00","05d3799e8d578268","155285ade336a998","65b2f9ec331fc726","6eb4b811504e7997","aacf94b7be62f494","e26ef19029cc92e2","c9dd5b7a9c6d6bd1","599953a34be8d3fd","78532b626e71177e","7795096b5328d050","6bec26d5e62d0866","63aa841d991bfb80","7cc8ad34d4fc6991","38a42c0b64accd68","565be3f826b6ada9","592b06b70459bea8","fd8d9ac1036f141c","14da29c4716bedc3","86a7f47b333770c6","395c9840d9e9d873","bce6162200c91bcf","9685eb765661ea3b","14abfcd75f779521","c7651f4560224a00","365feefa2df3a974","c934e348bcaac589","7936a85733ff8b0e","93c9556160e55b8b","78532b626e71177e"];
+
+beginnerAnswerHashes.forEach((hash, index) => {
+  answerHashes[`bk${String(index + 1).padStart(3, "0")}`] = [hash];
+});
+
 const weights = {
   mission: 0.3,
   detection: 0.2,
@@ -642,6 +731,13 @@ const defaultTeams = [
   { id: "vespucci", code: "GRUPPO 04", name: "Vespucci", accent: "#ff7d9b", score: 0, solved: [], solvedDomains: [], damaged: [], domainScores: { cyber: 0, information: 0, cognitive: 0, physical: 0 } }
 ];
 
+const shipDetailUrls = {
+  cavour: "https://vitabarl.github.io/trident-shield-ctf/index-cavour.html",
+  garibaldi: "https://vitabarl.github.io/trident-shield-ctf/index-garibaldi.html",
+  trieste: "https://vitabarl.github.io/trident-shield-ctf/index-trieste.html",
+  vespucci: "https://vitabarl.github.io/trident-shield-ctf/index-vespucci.html"
+};
+
 const challengePoints = {
   "m1-c1": 100,
   "m2-c1": 120,
@@ -652,6 +748,10 @@ const challengePoints = {
   "m7-c1": 130,
   "final-c1": 250
 };
+
+Object.values(beginnerChallengeSpecs).flat().forEach(spec => {
+  challengePoints[spec.id] = 60;
+});
 
 const domainKeys = ["cyber", "information", "cognitive", "physical"];
 const domainMeta = {
@@ -1118,6 +1218,7 @@ function renderScoreboard() {
           <div class="bar"><span style="--value: ${integrity}%"></span></div>
         </div>
         <div class="domain-score-grid">${domainScoreCards}</div>
+        ${!fixedTeamId ? `<a class="ship-detail-link" href="${shipDetailUrls[team.id]}" target="_blank" rel="noopener noreferrer">Apri dettaglio ${team.name}</a>` : ""}
       </article>
     `;
   }).join("");

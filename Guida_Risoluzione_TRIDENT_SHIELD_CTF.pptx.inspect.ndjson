@@ -1,0 +1,731 @@
+{"kind":"deck","id":"pr/cbor1y","name":"Deck"}
+{"kind":"layout","layoutId":"c32e1cb6-4cef-4615-8e21-c9e2e65ab2de","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"3330abe9-1370-441f-8f0f-dbb44f30b83a","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/bz0iwd","slide":1,"title":"Operazione","textShapes":15}
+{"kind":"textbox","id":"sh/m94fu18j","slide":1,"text":"Operazione","textPreview":"Operazione","textChars":10,"textLines":1,"bbox":[54,48,260,32]}
+{"kind":"textbox","id":"sh/x0nuxc3y","slide":1,"text":"TRIDENT SHIELD","textPreview":"TRIDENT SHIELD","textChars":14,"textLines":1,"bbox":[54,96,880,86]}
+{"kind":"textbox","id":"sh/4fu18jqh","slide":1,"text":"Guida PowerPoint passo per passo per risolvere le CTF, validare le flag e compilare la dashboard finale.","textPreview":"Guida PowerPoint passo per passo per risolvere le CTF, validare le flag e compilare la dashboard finale.","textChars":104,"textLines":1,"bbox":[54,206,720,86]}
+{"kind":"shape","id":"sh/fil0rqd4","slide":1,"bbox":[54,362,520,230]}
+{"kind":"textbox","id":"sh/qxs72x4n","slide":1,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[84,396,20,24]}
+{"kind":"textbox","id":"sh/xobm58z2","slide":1,"text":"Leggere evidenze, formulare ipotesi e correlare domini.","textPreview":"Leggere evidenze, formulare ipotesi e correlare domini.","textChars":55,"textLines":1,"bbox":[112,396,427,54]}
+{"kind":"textbox","id":"sh/83itgfml","slide":1,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[84,450,20,24]}
+{"kind":"textbox","id":"sh/fepkzupw","slide":1,"text":"Tutti gli artefatti sono simulati e sicuri.","textPreview":"Tutti gli artefatti sono simulati e sicuri.","textChars":43,"textLines":1,"bbox":[112,450,427,54]}
+{"kind":"textbox","id":"sh/mtwra5gb","slide":1,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[84,504,20,24]}
+{"kind":"textbox","id":"sh/oj2t83it","slide":1,"text":"Le soluzioni complete sono riservate al facilitatore.","textPreview":"Le soluzioni complete sono riservate al facilitatore.","textChars":53,"textLines":1,"bbox":[112,504,427,54]}
+{"kind":"shape","id":"sh/d4vmtwra","slide":1,"bbox":[740,56,420,520]}
+{"kind":"textbox","id":"sh/6dcbulwv","slide":1,"text":"Final Mission","textPreview":"Final Mission","textChars":13,"textLines":1,"bbox":[774,96,300,38]}
+{"kind":"textbox","id":"sh/vy90je9c","slide":1,"text":"Non basta trovare le flag: la missione deve rimanere operativa mentre l'attacco degrada informazione, fiducia e navigazione.","textPreview":"Non basta trovare le flag: la missione deve rimanere operativa mentre l'attacco degrada informazione, fiducia e navigazione.","textChars":124,"textLines":1,"bbox":[774,158,338,210]}
+{"kind":"shape","id":"sh/o7qpg3ex","slide":1,"bbox":[774,422,330,92]}
+{"kind":"textbox","id":"sh/dsji5sne","slide":1,"text":"Punteggio finale","textPreview":"Punteggio finale","textChars":16,"textLines":1,"bbox":[792,438,294,24]}
+{"kind":"textbox","id":"sh/61032lsz","slide":1,"text":"30 / 20 / 20 / 20 / 10","textPreview":"30 / 20 / 20 / 20 / 10","textChars":22,"textLines":1,"bbox":[792,470,294,36]}
+{"kind":"textbox","id":"sh/vmtwra5g","slide":1,"text":"TRIDENT SHIELD CTF | Guida di risoluzione","textPreview":"TRIDENT SHIELD CTF | Guida di risoluzione","textChars":41,"textLines":1,"bbox":[54,678,520,20]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":1,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1180,674,46,24]}
+{"kind":"notes","id":"nt/bz0iwd","slide":1,"text":""}
+{"kind":"slide","id":"sl/9un6i6","slide":2,"title":"COME USARE QUESTA GUIDA","textShapes":23}
+{"kind":"textbox","id":"sh/p0bi9s36","slide":2,"text":"COME USARE QUESTA GUIDA","textPreview":"COME USARE QUESTA GUIDA","textChars":23,"textLines":1,"bbox":[54,38,360,28]}
+{"kind":"textbox","id":"sh/i9s36hcr","slide":2,"text":"Metodo di risoluzione comune","textPreview":"Metodo di risoluzione comune","textChars":28,"textLines":1,"bbox":[54,74,860,70]}
+{"kind":"shape","id":"sh/bulwval8","slide":2,"bbox":[54,150,1172,1]}
+{"kind":"shape","id":"sh/032lszqt","slide":2,"bbox":[74,196,30,30]}
+{"kind":"textbox","id":"sh/tovahoza","slide":2,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[74,200,30,24]}
+{"kind":"textbox","id":"sh/ixczed8v","slide":2,"text":"Aprire il modulo nell'app e scaricare il relativo pacchetto CTF.","textPreview":"Aprire il modulo nell'app e scaricare il relativo pacchetto CTF.","textChars":64,"textLines":1,"bbox":[118,198,516,32]}
+{"kind":"shape","id":"sh/bi9s36hc","slide":2,"bbox":[74,244,30,30]}
+{"kind":"textbox","id":"sh/0rqd4vmt","slide":2,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[74,248,30,24]}
+{"kind":"textbox","id":"sh/tcj6tova","slide":2,"text":"Leggere prima lo student brief, poi evidenze grezze e timeline.","textPreview":"Leggere prima lo student brief, poi evidenze grezze e timeline.","textChars":63,"textLines":1,"bbox":[118,246,516,32]}
+{"kind":"shape","id":"sh/hwfyxobm","slide":2,"bbox":[74,292,30,30]}
+{"kind":"textbox","id":"sh/obm58z25","slide":2,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[74,296,30,24]}
+{"kind":"textbox","id":"sh/zqtcj6to","slide":2,"text":"Separare fatti osservati, inferenze e decisioni operative.","textPreview":"Separare fatti osservati, inferenze e decisioni operative.","textChars":58,"textLines":1,"bbox":[118,294,516,32]}
+{"kind":"shape","id":"sh/65wjudg7","slide":2,"bbox":[74,340,30,30]}
+{"kind":"textbox","id":"sh/hk3q5o7q","slide":2,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[74,344,30,24]}
+{"kind":"textbox","id":"sh/oza1gvy9","slide":2,"text":"Mappare ogni evidenza al dominio: cyber, information, cognitive, physical.","textPreview":"Mappare ogni evidenza al dominio: cyber, information, cognitive, physical.","textChars":74,"textLines":1,"bbox":[118,342,516,32]}
+{"kind":"shape","id":"sh/zed8v6ps","slide":2,"bbox":[74,388,30,30]}
+{"kind":"textbox","id":"sh/6xkf6dcb","slide":2,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[74,392,30,24]}
+{"kind":"textbox","id":"sh/hcrmhk3q","slide":2,"text":"Validare la flag nell'app e aggiornare i cursori della dashboard finale.","textPreview":"Validare la flag nell'app e aggiornare i cursori della dashboard finale.","textChars":72,"textLines":1,"bbox":[118,390,516,32]}
+{"kind":"shape","id":"sh/orytsvu9","slide":2,"bbox":[720,190,420,300]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":2,"text":"Regola pratica","textPreview":"Regola pratica","textChars":14,"textLines":1,"bbox":[752,220,320,32]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":2,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[752,276,20,24]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":2,"text":"Non cercare la flag nei file.","textPreview":"Non cercare la flag nei file.","textChars":29,"textLines":1,"bbox":[780,276,314,52]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":2,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[752,328,20,24]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":2,"text":"Ricostruire prima la catena causale.","textPreview":"Ricostruire prima la catena causale.","textChars":36,"textLines":1,"bbox":[780,328,314,52]}
+{"kind":"textbox","id":"sh/d8v6psfi","slide":2,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[752,380,20,24]}
+{"kind":"textbox","id":"sh/6hcrmhk3","slide":2,"text":"Usare la flag solo quando la soluzione e giustificata.","textPreview":"Usare la flag solo quando la soluzione e giustificata.","textChars":54,"textLines":1,"bbox":[780,380,314,52]}
+{"kind":"textbox","id":"sh/z25kb6xk","slide":2,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[752,432,20,24]}
+{"kind":"textbox","id":"sh/oj2t83it","slide":2,"text":"Nel finale, motivare ogni percentuale con prove.","textPreview":"Nel finale, motivare ogni percentuale con prove.","textChars":48,"textLines":1,"bbox":[780,432,314,52]}
+{"kind":"textbox","id":"sh/d4vmtwra","slide":2,"text":"TRIDENT SHIELD CTF | Guida di risoluzione","textPreview":"TRIDENT SHIELD CTF | Guida di risoluzione","textChars":41,"textLines":1,"bbox":[54,678,520,20]}
+{"kind":"textbox","id":"sh/32lszqtc","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1180,674,46,24]}
+{"kind":"notes","id":"nt/9un6i6","slide":2,"text":""}
+{"kind":"slide","id":"sl/gmgx5l","slide":3,"title":"MODULO 1","textShapes":20}
+{"kind":"textbox","id":"sh/sfil0rqd","slide":3,"text":"MODULO 1","textPreview":"MODULO 1","textChars":8,"textLines":1,"bbox":[54,38,360,28]}
+{"kind":"textbox","id":"sh/zupwb2hw","slide":3,"text":"Attack Path Mapping","textPreview":"Attack Path Mapping","textChars":19,"textLines":1,"bbox":[54,74,860,70]}
+{"kind":"shape","id":"sh/a9w3m94f","slide":3,"bbox":[54,150,1172,1]}
+{"kind":"shape","id":"sh/hcrmhk3q","slide":3,"bbox":[70,190,335,122]}
+{"kind":"textbox","id":"sh/orytsvu9","slide":3,"text":"Materiali","textPreview":"Materiali","textChars":9,"textLines":1,"bbox":[88,206,299,24]}
+{"kind":"textbox","id":"sh/z61032ls","slide":3,"text":"soc.log, social_media.csv, HUMINT, satellite report, email.eml","textPreview":"soc.log, social_media.csv, HUMINT, satellite report, email.eml","textChars":62,"textLines":1,"bbox":[88,238,299,66]}
+{"kind":"shape","id":"sh/al87ed8b","slide":3,"bbox":[438,190,335,122]}
+{"kind":"textbox","id":"sh/hk3q5o7q","slide":3,"text":"Obiettivo","textPreview":"Obiettivo","textChars":9,"textLines":1,"bbox":[456,206,299,24]}
+{"kind":"textbox","id":"sh/oza1gvy9","slide":3,"text":"Dimostrare come un accesso cyber produce effetti informativi, cognitivi e fisici.","textPreview":"Dimostrare come un accesso cyber produce effetti informativi, cognitivi e fisici.","textChars":81,"textLines":1,"bbox":[456,238,299,66]}
+{"kind":"shape","id":"sh/29gr2p8n","slide":3,"bbox":[806,190,335,122]}
+{"kind":"textbox","id":"sh/vu9knih4","slide":3,"text":"Flag dinamica","textPreview":"Flag dinamica","textChars":13,"textLines":1,"bbox":[824,206,299,24]}
+{"kind":"textbox","id":"sh/kf6dcbul","slide":3,"text":"CYBER + INFO + COG + PHYS","textPreview":"CYBER + INFO + COG + PHYS","textChars":25,"textLines":1,"bbox":[824,238,299,66]}
+{"kind":"shape","id":"sh/d0z61032","slide":3,"bbox":[86,360,30,30]}
+{"kind":"textbox","id":"sh/2lszqtcj","slide":3,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[86,364,30,24]}
+{"kind":"textbox","id":"sh/v6psfil0","slide":3,"text":"Partire dall'email: allegato ROE_Update.xlsm e richiesta di abilitare contenuti.","textPreview":"Partire dall'email: allegato ROE_Update.xlsm e richiesta di abilitare contenuti.","textChars":80,"textLines":1,"bbox":[130,362,966,32]}
+{"kind":"shape","id":"sh/knih4byh","slide":3,"bbox":[86,403,30,30]}
+{"kind":"textbox","id":"sh/d8bat47y","slide":3,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[86,407,30,24]}
+{"kind":"textbox","id":"sh/6psfil0r","slide":3,"text":"Nel SOC log cercare macro, PowerShell, beacon C2 e modifica del FRAGO.","textPreview":"Nel SOC log cercare macro, PowerShell, beacon C2 e modifica del FRAGO.","textChars":70,"textLines":1,"bbox":[130,405,966,32]}
+{"kind":"shape","id":"sh/val87ed8","slide":3,"bbox":[86,446,30,30]}
+{"kind":"textbox","id":"sh/n29gr2p8","slide":3,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[86,450,30,24]}
+{"kind":"textbox","id":"sh/yhgn29gr","slide":3,"text":"Nei social individuare amplificazione del documento manipolato.","textPreview":"Nei social individuare amplificazione del documento manipolato.","textChars":63,"textLines":1,"bbox":[130,448,966,32]}
+{"kind":"shape","id":"sh/58z25kb6","slide":3,"bbox":[86,489,30,30]}
+{"kind":"textbox","id":"sh/gn29gr2p","slide":3,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[86,493,30,24]}
+{"kind":"textbox","id":"sh/nuxc3ylc","slide":3,"text":"Con HUMINT collegare ansia e sfiducia alla circolazione dell'ordine falso.","textPreview":"Con HUMINT collegare ansia e sfiducia alla circolazione dell'ordine falso.","textChars":74,"textLines":1,"bbox":[130,491,966,32]}
+{"kind":"shape","id":"sh/y90je9cv","slide":3,"bbox":[86,532,30,30]}
+{"kind":"textbox","id":"sh/5wjudg7a","slide":3,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[86,536,30,24]}
+{"kind":"textbox","id":"sh/gbq1oryt","slide":3,"text":"Con satellite/AIS chiudere il dominio physical: nave fuori patrol box.","textPreview":"Con satellite/AIS chiudere il dominio physical: nave fuori patrol box.","textChars":70,"textLines":1,"bbox":[130,534,966,32]}
+{"kind":"textbox","id":"sh/nqxs72x4","slide":3,"text":"TRIDENT SHIELD CTF | Guida di risoluzione","textPreview":"TRIDENT SHIELD CTF | Guida di risoluzione","textChars":41,"textLines":1,"bbox":[54,678,520,20]}
+{"kind":"textbox","id":"sh/u54zidon","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1180,674,46,24]}
+{"kind":"notes","id":"nt/gmgx5l","slide":3,"text":""}
+{"kind":"slide","id":"sl/aah4jc","slide":4,"title":"MODULO 1","textShapes":13}
+{"kind":"textbox","id":"sh/x0nuxc3y","slide":4,"text":"MODULO 1","textPreview":"MODULO 1","textChars":8,"textLines":1,"bbox":[54,38,360,28]}
+{"kind":"textbox","id":"sh/m94fu18j","slide":4,"text":"Mappa soluzione nei quattro domini","textPreview":"Mappa soluzione nei quattro domini","textChars":34,"textLines":1,"bbox":[54,74,860,70]}
+{"kind":"shape","id":"sh/fu18jqh0","slide":4,"bbox":[54,150,1172,1]}
+{"kind":"shape","id":"sh/83itgfml","slide":4,"bbox":[72,190,500,130]}
+{"kind":"textbox","id":"sh/xobm58z2","slide":4,"text":"Cyber","textPreview":"Cyber","textChars":5,"textLines":1,"bbox":[94,208,250,32]}
+{"kind":"textbox","id":"sh/qxs72x4n","slide":4,"text":"VPN anomalo, macro, PowerShell, C2, modifica FRAGO","textPreview":"VPN anomalo, macro, PowerShell, C2, modifica FRAGO","textChars":50,"textLines":1,"bbox":[94,252,430,46]}
+{"kind":"shape","id":"sh/fil0rqd4","slide":4,"bbox":[622,190,500,130]}
+{"kind":"textbox","id":"sh/4zidonyd","slide":4,"text":"Information","textPreview":"Information","textChars":11,"textLines":1,"bbox":[644,208,250,32]}
+{"kind":"textbox","id":"sh/xkf6dcbu","slide":4,"text":"Fake FRAGO, post X/Telegram, leak manipolato","textPreview":"Fake FRAGO, post X/Telegram, leak manipolato","textChars":44,"textLines":1,"bbox":[644,252,430,46]}
+{"kind":"shape","id":"sh/1kre1w7m","slide":4,"bbox":[72,360,500,130]}
+{"kind":"textbox","id":"sh/c3ylc7u5","slide":4,"text":"Cognitive","textPreview":"Cognitive","textChars":9,"textLines":1,"bbox":[94,378,250,32]}
+{"kind":"textbox","id":"sh/ji5snelo","slide":4,"text":"Ansia equipaggi, pressione famiglie, dubbio sul comando","textPreview":"Ansia equipaggi, pressione famiglie, dubbio sul comando","textChars":55,"textLines":1,"bbox":[94,422,430,46]}
+{"kind":"shape","id":"sh/uxc3ylc7","slide":4,"bbox":[622,360,500,130]}
+{"kind":"textbox","id":"sh/1cfa9w3m","slide":4,"text":"Physical","textPreview":"Physical","textChars":8,"textLines":1,"bbox":[644,378,250,32]}
+{"kind":"textbox","id":"sh/crmhk3q5","slide":4,"text":"Rotta alterata, AIS incoerente, patrol box degradato","textPreview":"Rotta alterata, AIS incoerente, patrol box degradato","textChars":52,"textLines":1,"bbox":[644,422,430,46]}
+{"kind":"textbox","id":"sh/j6tovaho","slide":4,"text":"Sequenza attesa: phishing -> execution -> C2 -> order tampering -> fake narrative -> distrust -> navigation error.","textPreview":"Sequenza attesa: phishing -> execution -> C2 -> order tampering -> fake narrative -> distrust -> navigation error.","textChars":114,"textLines":1,"bbox":[72,582,1050,50]}
+{"kind":"textbox","id":"sh/ulwval87","slide":4,"text":"TRIDENT SHIELD CTF | Guida di risoluzione","textPreview":"TRIDENT SHIELD CTF | Guida di risoluzione","textChars":41,"textLines":1,"bbox":[54,678,520,20]}
+{"kind":"textbox","id":"sh/18jqh0fe","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1180,674,46,24]}
+{"kind":"notes","id":"nt/aah4jc","slide":4,"text":""}
+{"kind":"slide","id":"sl/aa0niw","slide":5,"title":"MODULO 2","textShapes":20}
+{"kind":"textbox","id":"sh/i5sneloj","slide":5,"text":"MODULO 2","textPreview":"MODULO 2","textChars":8,"textLines":1,"bbox":[54,38,360,28]}
+{"kind":"textbox","id":"sh/pwb2hwfy","slide":5,"text":"Cyber Threat Intelligence","textPreview":"Cyber Threat Intelligence","textChars":25,"textLines":1,"bbox":[54,74,860,70]}
+{"kind":"shape","id":"sh/0bi9s36h","slide":5,"bbox":[54,150,1172,1]}
+{"kind":"shape","id":"sh/7y1kre1w","slide":5,"bbox":[70,190,335,122]}
+{"kind":"textbox","id":"sh/ed8v6psf","slide":5,"text":"Materiali","textPreview":"Materiali","textChars":9,"textLines":1,"bbox":[88,206,299,24]}
+{"kind":"textbox","id":"sh/p4r65wju","slide":5,"text":"iocs.csv, yara_rule.yar, mitre-mapping.csv, kill_chain.md","textPreview":"iocs.csv, yara_rule.yar, mitre-mapping.csv, kill_chain.md","textChars":57,"textLines":1,"bbox":[88,238,299,66]}
+{"kind":"shape","id":"sh/wjudg7ad","slide":5,"bbox":[438,190,335,122]}
+{"kind":"textbox","id":"sh/72x4nap4","slide":5,"text":"APT simulato","textPreview":"APT simulato","textChars":12,"textLines":1,"bbox":[456,206,299,24]}
+{"kind":"textbox","id":"sh/ih4byhgn","slide":5,"text":"SEA-GHOST","textPreview":"SEA-GHOST","textChars":9,"textLines":1,"bbox":[456,238,299,66]}
+{"kind":"shape","id":"sh/032lszqt","slide":5,"bbox":[806,190,335,122]}
+{"kind":"textbox","id":"sh/tovahoza","slide":5,"text":"Flag dinamica","textPreview":"Flag dinamica","textChars":13,"textLines":1,"bbox":[824,206,299,24]}
+{"kind":"textbox","id":"sh/ixczed8v","slide":5,"text":"CYBER + INFO + COG + PHYS","textPreview":"CYBER + INFO + COG + PHYS","textChars":25,"textLines":1,"bbox":[824,238,299,66]}
+{"kind":"shape","id":"sh/bi9s36hc","slide":5,"bbox":[86,352,30,30]}
+{"kind":"textbox","id":"sh/0fepkzup","slide":5,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[86,356,30,24]}
+{"kind":"textbox","id":"sh/p0bi9s36","slide":5,"text":"Estrarre IOC: hash macro, dominio, IP, URI, mutex, Run key.","textPreview":"Estrarre IOC: hash macro, dominio, IP, URI, mutex, Run key.","textChars":59,"textLines":1,"bbox":[130,354,996,32]}
+{"kind":"shape","id":"sh/i9s36hcr","slide":5,"bbox":[86,396,30,30]}
+{"kind":"textbox","id":"sh/bulwval8","slide":5,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[86,400,30,24]}
+{"kind":"textbox","id":"sh/0je9cvix","slide":5,"text":"Validare la YARA: almeno 3 stringhe descrivono il beacon Trident.","textPreview":"Validare la YARA: almeno 3 stringhe descrivono il beacon Trident.","textChars":65,"textLines":1,"bbox":[130,398,996,32]}
+{"kind":"shape","id":"sh/t47y1kre","slide":5,"bbox":[86,440,30,30]}
+{"kind":"textbox","id":"sh/xobm58z2","slide":5,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[86,444,30,24]}
+{"kind":"textbox","id":"sh/83itgfml","slide":5,"text":"Mappare MITRE: T1566.001, T1059.001, T1060, T1027, T1071.001, T1565.002.","textPreview":"Mappare MITRE: T1566.001, T1059.001, T1060, T1027, T1071.001, T1565.002.","textChars":72,"textLines":1,"bbox":[130,442,996,32]}
+{"kind":"shape","id":"sh/fil0rqd4","slide":5,"bbox":[86,484,30,30]}
+{"kind":"textbox","id":"sh/qxs72x4n","slide":5,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[86,488,30,24]}
+{"kind":"textbox","id":"sh/x0nuxc3y","slide":5,"text":"Ricostruire Kill Chain dal delivery all'action on objectives.","textPreview":"Ricostruire Kill Chain dal delivery all'action on objectives.","textChars":61,"textLines":1,"bbox":[130,486,996,32]}
+{"kind":"shape","id":"sh/4fu18jqh","slide":5,"bbox":[86,528,30,30]}
+{"kind":"textbox","id":"sh/fu18jqh0","slide":5,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[86,532,30,24]}
+{"kind":"textbox","id":"sh/m94fu18j","slide":5,"text":"Attribuire il cluster simulato SEA-GHOST e giustificare con TTP/IOC.","textPreview":"Attribuire il cluster simulato SEA-GHOST e giustificare con TTP/IOC.","textChars":68,"textLines":1,"bbox":[130,530,996,32]}
+{"kind":"textbox","id":"sh/xc3ylc7u","slide":5,"text":"TRIDENT SHIELD CTF | Guida di risoluzione","textPreview":"TRIDENT SHIELD CTF | Guida di risoluzione","textChars":41,"textLines":1,"bbox":[54,678,520,20]}
+{"kind":"textbox","id":"sh/4r65wjud","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1180,674,46,24]}
+{"kind":"notes","id":"nt/aa0niw","slide":5,"text":""}
+{"kind":"slide","id":"sl/u82n6j","slide":6,"title":"MODULO 3","textShapes":20}
+{"kind":"textbox","id":"sh/dcbulwva","slide":6,"text":"MODULO 3","textPreview":"MODULO 3","textChars":8,"textLines":1,"bbox":[54,38,360,28]}
+{"kind":"textbox","id":"sh/6psfil0r","slide":6,"text":"Red Team vs Blue Team","textPreview":"Red Team vs Blue Team","textChars":21,"textLines":1,"bbox":[54,74,860,70]}
+{"kind":"shape","id":"sh/val87ed8","slide":6,"bbox":[54,150,1172,1]}
+{"kind":"shape","id":"sh/k3q5o7qp","slide":6,"bbox":[70,190,335,126]}
+{"kind":"textbox","id":"sh/donyd0z6","slide":6,"text":"Logica","textPreview":"Logica","textChars":6,"textLines":1,"bbox":[88,206,299,24]}
+{"kind":"textbox","id":"sh/2x4nap4r","slide":6,"text":"Red guadagna punti con compromissione; Blue con continuita operativa.","textPreview":"Red guadagna punti con compromissione; Blue con continuita operativa.","textChars":69,"textLines":1,"bbox":[88,238,299,70]}
+{"kind":"shape","id":"sh/vixczed8","slide":6,"bbox":[438,190,335,126]}
+{"kind":"textbox","id":"sh/kf6dcbul","slide":6,"text":"Vittoria Blue","textPreview":"Vittoria Blue","textChars":13,"textLines":1,"bbox":[456,206,299,24]}
+{"kind":"textbox","id":"sh/d0z61032","slide":6,"text":"Detection + containment + restoration + comunicazione.","textPreview":"Detection + containment + restoration + comunicazione.","textChars":54,"textLines":1,"bbox":[456,238,299,70]}
+{"kind":"shape","id":"sh/dsji5sne","slide":6,"bbox":[806,190,335,126]}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":6,"text":"Flag dinamica","textPreview":"Flag dinamica","textChars":13,"textLines":1,"bbox":[824,206,299,24]}
+{"kind":"textbox","id":"sh/vmtwra5g","slide":6,"text":"CYBER + INFO + COG + PHYS","textPreview":"CYBER + INFO + COG + PHYS","textChars":25,"textLines":1,"bbox":[824,238,299,70]}
+{"kind":"shape","id":"sh/61032lsz","slide":6,"bbox":[86,360,30,30]}
+{"kind":"textbox","id":"sh/d4vmtwra","slide":6,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[86,364,30,24]}
+{"kind":"textbox","id":"sh/oj2t83it","slide":6,"text":"Turno 1: contrastare spear phishing con SIEM correlation.","textPreview":"Turno 1: contrastare spear phishing con SIEM correlation.","textChars":57,"textLines":1,"bbox":[130,362,966,32]}
+{"kind":"shape","id":"sh/vy90je9c","slide":6,"bbox":[86,403,30,30]}
+{"kind":"textbox","id":"sh/6dcbulwv","slide":6,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[86,407,30,24]}
+{"kind":"textbox","id":"sh/d8v6psfi","slide":6,"text":"Turno 2: isolare OPS-WS-17 e bloccare credential replay.","textPreview":"Turno 2: isolare OPS-WS-17 e bloccare credential replay.","textChars":56,"textLines":1,"bbox":[130,405,966,32]}
+{"kind":"shape","id":"sh/onyd0z61","slide":6,"bbox":[86,446,30,30]}
+{"kind":"textbox","id":"sh/kre1w7mp","slide":6,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[86,450,30,24]}
+{"kind":"textbox","id":"sh/dcbulwva","slide":6,"text":"Turno 3: bloccare C2 al firewall usando IOC confermati.","textPreview":"Turno 3: bloccare C2 al firewall usando IOC confermati.","textChars":55,"textLines":1,"bbox":[130,448,966,32]}
+{"kind":"shape","id":"sh/6psfil0r","slide":6,"bbox":[86,489,30,30]}
+{"kind":"textbox","id":"sh/val87ed8","slide":6,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[86,493,30,24]}
+{"kind":"textbox","id":"sh/k3q5o7qp","slide":6,"text":"Turno 4: Public Affairs corregge la narrativa ostile.","textPreview":"Turno 4: Public Affairs corregge la narrativa ostile.","textChars":53,"textLines":1,"bbox":[130,491,966,32]}
+{"kind":"shape","id":"sh/donyd0z6","slide":6,"bbox":[86,532,30,30]}
+{"kind":"textbox","id":"sh/2x4nap4r","slide":6,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[86,536,30,24]}
+{"kind":"textbox","id":"sh/vixczed8","slide":6,"text":"Turno 5: IR ripristina FRAGO, reset credenziali e informa comando.","textPreview":"Turno 5: IR ripristina FRAGO, reset credenziali e informa comando.","textChars":66,"textLines":1,"bbox":[130,534,966,32]}
+{"kind":"textbox","id":"sh/kf6dcbul","slide":6,"text":"TRIDENT SHIELD CTF | Guida di risoluzione","textPreview":"TRIDENT SHIELD CTF | Guida di risoluzione","textChars":41,"textLines":1,"bbox":[54,678,520,20]}
+{"kind":"textbox","id":"sh/d0z61032","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1180,674,46,24]}
+{"kind":"notes","id":"nt/u82n6j","slide":6,"text":""}
+{"kind":"slide","id":"sl/l6eg9o","slide":7,"title":"MODULO 4","textShapes":20}
+{"kind":"textbox","id":"sh/gn29gr2p","slide":7,"text":"MODULO 4","textPreview":"MODULO 4","textChars":8,"textLines":1,"bbox":[54,38,360,28]}
+{"kind":"textbox","id":"sh/n29gr2p8","slide":7,"text":"Malware Analysis","textPreview":"Malware Analysis","textChars":16,"textLines":1,"bbox":[54,74,860,70]}
+{"kind":"shape","id":"sh/yhgn29gr","slide":7,"bbox":[54,150,1172,1]}
+{"kind":"shape","id":"sh/5wjudg7a","slide":7,"bbox":[70,190,335,136]}
+{"kind":"textbox","id":"sh/gbq1oryt","slide":7,"text":"C2","textPreview":"C2","textChars":2,"textLines":1,"bbox":[88,206,299,24]}
+{"kind":"textbox","id":"sh/nuxc3ylc","slide":7,"text":"sync-mediterranean-control.example / 198.51.100.44","textPreview":"sync-mediterranean-control.example / 198.51.100.44","textChars":50,"textLines":1,"bbox":[88,238,299,80]}
+{"kind":"shape","id":"sh/y90je9cv","slide":7,"bbox":[438,190,335,136]}
+{"kind":"textbox","id":"sh/5sneloj2","slide":7,"text":"Persistence","textPreview":"Persistence","textChars":11,"textLines":1,"bbox":[456,206,299,24]}
+{"kind":"textbox","id":"sh/cbulwval","slide":7,"text":"HKCU...Run\\TridentSync","textPreview":"HKCU...Run\\TridentSync","textChars":22,"textLines":1,"bbox":[456,238,299,80]}
+{"kind":"shape","id":"sh/e9cvixcz","slide":7,"bbox":[806,190,335,136]}
+{"kind":"textbox","id":"sh/3q5o7qpg","slide":7,"text":"Flag dinamica","textPreview":"Flag dinamica","textChars":13,"textLines":1,"bbox":[824,206,299,24]}
+{"kind":"textbox","id":"sh/wb2hwfyx","slide":7,"text":"CYBER + INFO + COG + PHYS","textPreview":"CYBER + INFO + COG + PHYS","textChars":25,"textLines":1,"bbox":[824,238,299,80]}
+{"kind":"shape","id":"sh/lwval87e","slide":7,"bbox":[86,370,30,30]}
+{"kind":"textbox","id":"sh/ex0nuxc3","slide":7,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[86,374,30,24]}
+{"kind":"textbox","id":"sh/3itgfmlk","slide":7,"text":"Aprire strings.txt: cercare dominio, URI, mutex, payload marker.","textPreview":"Aprire strings.txt: cercare dominio, URI, mutex, payload marker.","textChars":64,"textLines":1,"bbox":[130,372,966,32]}
+{"kind":"shape","id":"sh/w3m94fu1","slide":7,"bbox":[86,413,30,30]}
+{"kind":"textbox","id":"sh/loj2t83i","slide":7,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[86,417,30,24]}
+{"kind":"textbox","id":"sh/at47y1kr","slide":7,"text":"Leggere Volatility: pslist, cmdline, registry.printkey e netscan.","textPreview":"Leggere Volatility: pslist, cmdline, registry.printkey e netscan.","textChars":65,"textLines":1,"bbox":[130,415,966,32]}
+{"kind":"shape","id":"sh/3ex0nuxc","slide":7,"bbox":[86,456,30,30]}
+{"kind":"textbox","id":"sh/z25kb6xk","slide":7,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[86,460,30,24]}
+{"kind":"textbox","id":"sh/6hcrmhk3","slide":7,"text":"Leggere PCAP summary: SNI, URI, User-Agent e comandi POST/response.","textPreview":"Leggere PCAP summary: SNI, URI, User-Agent e comandi POST/response.","textChars":67,"textLines":1,"bbox":[130,458,966,32]}
+{"kind":"shape","id":"sh/d8v6psfi","slide":7,"bbox":[86,499,30,30]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":7,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[86,503,30,24]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":7,"text":"Concludere: collect_navshare e replace_frago sono capability operative.","textPreview":"Concludere: collect_navshare e replace_frago sono capability operative.","textChars":71,"textLines":1,"bbox":[130,501,966,32]}
+{"kind":"shape","id":"sh/6tovahoz","slide":7,"bbox":[86,542,30,30]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":7,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[86,546,30,24]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":7,"text":"Scrivere una scheda C2/persistence/payload prima di validare la flag.","textPreview":"Scrivere una scheda C2/persistence/payload prima di validare la flag.","textChars":69,"textLines":1,"bbox":[130,544,966,32]}
+{"kind":"textbox","id":"sh/vmtwra5g","slide":7,"text":"TRIDENT SHIELD CTF | Guida di risoluzione","textPreview":"TRIDENT SHIELD CTF | Guida di risoluzione","textChars":41,"textLines":1,"bbox":[54,678,520,20]}
+{"kind":"textbox","id":"sh/61032lsz","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1180,674,46,24]}
+{"kind":"notes","id":"nt/l6eg9o","slide":7,"text":""}
+{"kind":"slide","id":"sl/5e5m1z","slide":8,"title":"MODULO 5","textShapes":20}
+{"kind":"textbox","id":"sh/j6tovaho","slide":8,"text":"MODULO 5","textPreview":"MODULO 5","textChars":8,"textLines":1,"bbox":[54,38,360,28]}
+{"kind":"textbox","id":"sh/crmhk3q5","slide":8,"text":"Wargaming","textPreview":"Wargaming","textChars":9,"textLines":1,"bbox":[54,74,860,70]}
+{"kind":"shape","id":"sh/1cfa9w3m","slide":8,"bbox":[54,150,1172,1]}
+{"kind":"shape","id":"sh/uxc3ylc7","slide":8,"bbox":[70,190,335,126]}
+{"kind":"textbox","id":"sh/ji5snelo","slide":8,"text":"Ruoli","textPreview":"Ruoli","textChars":5,"textLines":1,"bbox":[88,206,299,24]}
+{"kind":"textbox","id":"sh/c3ylc7u5","slide":8,"text":"Comandante, SOC, Intelligence, PA, Operations, Legal","textPreview":"Comandante, SOC, Intelligence, PA, Operations, Legal","textChars":52,"textLines":1,"bbox":[88,238,299,70]}
+{"kind":"shape","id":"sh/1kre1w7m","slide":8,"bbox":[438,190,335,126]}
+{"kind":"textbox","id":"sh/q5o7qpg3","slide":8,"text":"Metriche","textPreview":"Metriche","textChars":8,"textLines":1,"bbox":[456,206,299,24]}
+{"kind":"textbox","id":"sh/jqh0fepk","slide":8,"text":"Mission, detection, response, impact, coordination","textPreview":"Mission, detection, response, impact, coordination","textChars":50,"textLines":1,"bbox":[456,238,299,70]}
+{"kind":"shape","id":"sh/fmlkjm1c","slide":8,"bbox":[806,190,335,126]}
+{"kind":"textbox","id":"sh/q1orytsv","slide":8,"text":"Flag dinamica","textPreview":"Flag dinamica","textChars":13,"textLines":1,"bbox":[824,206,299,24]}
+{"kind":"textbox","id":"sh/xs72x4na","slide":8,"text":"CYBER + INFO + COG + PHYS","textPreview":"CYBER + INFO + COG + PHYS","textChars":25,"textLines":1,"bbox":[824,238,299,70]}
+{"kind":"shape","id":"sh/87ed8bat","slide":8,"bbox":[86,360,30,30]}
+{"kind":"textbox","id":"sh/je9cvixc","slide":8,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[86,364,30,24]}
+{"kind":"textbox","id":"sh/qtcj6tov","slide":8,"text":"Per ogni inject identificare dominio primario e rischio missione.","textPreview":"Per ogni inject identificare dominio primario e rischio missione.","textChars":65,"textLines":1,"bbox":[130,362,966,32]}
+{"kind":"shape","id":"sh/1gvy90je","slide":8,"bbox":[86,403,30,30]}
+{"kind":"textbox","id":"sh/8z25kb6x","slide":8,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[86,407,30,24]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":8,"text":"Autenticare il comando quando compare il deepfake.","textPreview":"Autenticare il comando quando compare il deepfake.","textChars":50,"textLines":1,"bbox":[130,405,966,32]}
+{"kind":"shape","id":"sh/qpg3ex0n","slide":8,"bbox":[86,446,30,30]}
+{"kind":"textbox","id":"sh/ytsvu9kn","slide":8,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[86,450,30,24]}
+{"kind":"textbox","id":"sh/neloj2t8","slide":8,"text":"Passare a navigazione alternativa durante spoofing GPS.","textPreview":"Passare a navigazione alternativa durante spoofing GPS.","textChars":55,"textLines":1,"bbox":[130,448,966,32]}
+{"kind":"shape","id":"sh/czed8v6p","slide":8,"bbox":[86,489,30,30]}
+{"kind":"textbox","id":"sh/5kb6xkf6","slide":8,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[86,493,30,24]}
+{"kind":"textbox","id":"sh/u54zidon","slide":8,"text":"Coordinare Legal e Public Affairs per memo/leak manipolati.","textPreview":"Coordinare Legal e Public Affairs per memo/leak manipolati.","textChars":59,"textLines":1,"bbox":[130,491,966,32]}
+{"kind":"shape","id":"sh/nqxs72x4","slide":8,"bbox":[86,532,30,30]}
+{"kind":"textbox","id":"sh/cbulwval","slide":8,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[86,536,30,24]}
+{"kind":"textbox","id":"sh/5sneloj2","slide":8,"text":"Assegnare punti dalla decision-matrix e motivare il punteggio.","textPreview":"Assegnare punti dalla decision-matrix e motivare il punteggio.","textChars":62,"textLines":1,"bbox":[130,534,966,32]}
+{"kind":"textbox","id":"sh/y90je9cv","slide":8,"text":"TRIDENT SHIELD CTF | Guida di risoluzione","textPreview":"TRIDENT SHIELD CTF | Guida di risoluzione","textChars":41,"textLines":1,"bbox":[54,678,520,20]}
+{"kind":"textbox","id":"sh/nuxc3ylc","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1180,674,46,24]}
+{"kind":"notes","id":"nt/5e5m1z","slide":8,"text":""}
+{"kind":"slide","id":"sl/q6doou","slide":9,"title":"MODULO 6","textShapes":20}
+{"kind":"textbox","id":"sh/c7u54zid","slide":9,"text":"MODULO 6","textPreview":"MODULO 6","textChars":8,"textLines":1,"bbox":[54,38,360,28]}
+{"kind":"textbox","id":"sh/jm1cfa9w","slide":9,"text":"Hybrid Warfare","textPreview":"Hybrid Warfare","textChars":14,"textLines":1,"bbox":[54,74,860,70]}
+{"kind":"shape","id":"sh/u18jqh0f","slide":9,"bbox":[54,150,1172,1]}
+{"kind":"shape","id":"sh/1032lszq","slide":9,"bbox":[70,190,335,126]}
+{"kind":"textbox","id":"sh/cfa9w3m9","slide":9,"text":"Fonti","textPreview":"Fonti","textChars":5,"textLines":1,"bbox":[88,206,299,24]}
+{"kind":"textbox","id":"sh/judg7ads","slide":9,"text":"Telegram, X, AIS, cyber log, OSINT image notes","textPreview":"Telegram, X, AIS, cyber log, OSINT image notes","textChars":46,"textLines":1,"bbox":[88,238,299,70]}
+{"kind":"shape","id":"sh/u9knih4b","slide":9,"bbox":[438,190,335,126]}
+{"kind":"textbox","id":"sh/54zidony","slide":9,"text":"Obiettivo","textPreview":"Obiettivo","textChars":9,"textLines":1,"bbox":[456,206,299,24]}
+{"kind":"textbox","id":"sh/cj6tovah","slide":9,"text":"Timeline unica con cyber + propaganda + spoofing + immagini.","textPreview":"Timeline unica con cyber + propaganda + spoofing + immagini.","textChars":60,"textLines":1,"bbox":[456,238,299,70]}
+{"kind":"shape","id":"sh/ex0nuxc3","slide":9,"bbox":[806,190,335,126]}
+{"kind":"textbox","id":"sh/3itgfmlk","slide":9,"text":"Flag dinamica","textPreview":"Flag dinamica","textChars":13,"textLines":1,"bbox":[824,206,299,24]}
+{"kind":"textbox","id":"sh/w3m94fu1","slide":9,"text":"CYBER + INFO + COG + PHYS","textPreview":"CYBER + INFO + COG + PHYS","textChars":25,"textLines":1,"bbox":[824,238,299,70]}
+{"kind":"shape","id":"sh/loj2t83i","slide":9,"bbox":[86,360,30,30]}
+{"kind":"textbox","id":"sh/e9cvixcz","slide":9,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[86,364,30,24]}
+{"kind":"textbox","id":"sh/3q5o7qpg","slide":9,"text":"Allineare timestamp cyber: beacon, FRAGO modificato, AIS gateway anomaly.","textPreview":"Allineare timestamp cyber: beacon, FRAGO modificato, AIS gateway anomaly.","textChars":73,"textLines":1,"bbox":[130,362,966,32]}
+{"kind":"shape","id":"sh/wb2hwfyx","slide":9,"bbox":[86,403,30,30]}
+{"kind":"textbox","id":"sh/lwval87e","slide":9,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[86,407,30,24]}
+{"kind":"textbox","id":"sh/ahoza1gv","slide":9,"text":"Legare post social ai momenti tecnici: leak e track jump diventano prove apparenti.","textPreview":"Legare post social ai momenti tecnici: leak e track jump diventano prove apparenti.","textChars":83,"textLines":1,"bbox":[130,405,966,32]}
+{"kind":"shape","id":"sh/32lszqtc","slide":9,"bbox":[86,446,30,30]}
+{"kind":"textbox","id":"sh/v6psfil0","slide":9,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[86,450,30,24]}
+{"kind":"textbox","id":"sh/2lszqtcj","slide":9,"text":"Usare OSINT notes per scartare immagini riusate o fuori contesto.","textPreview":"Usare OSINT notes per scartare immagini riusate o fuori contesto.","textChars":65,"textLines":1,"bbox":[130,448,966,32]}
+{"kind":"shape","id":"sh/d8bat47y","slide":9,"bbox":[86,489,30,30]}
+{"kind":"textbox","id":"sh/knih4byh","slide":9,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[86,493,30,24]}
+{"kind":"textbox","id":"sh/vu9knih4","slide":9,"text":"Dichiarare l'obiettivo: degradare efficacia missione senza attacco cinetico diretto.","textPreview":"Dichiarare l'obiettivo: degradare efficacia missione senza attacco cinetico diretto.","textChars":84,"textLines":1,"bbox":[130,491,966,32]}
+{"kind":"shape","id":"sh/29gr2p8n","slide":9,"bbox":[86,532,30,30]}
+{"kind":"textbox","id":"sh/d0z61032","slide":9,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[86,536,30,24]}
+{"kind":"textbox","id":"sh/kf6dcbul","slide":9,"text":"Validare solo dopo timeline e campagna ricostruite.","textPreview":"Validare solo dopo timeline e campagna ricostruite.","textChars":51,"textLines":1,"bbox":[130,534,966,32]}
+{"kind":"textbox","id":"sh/vixczed8","slide":9,"text":"TRIDENT SHIELD CTF | Guida di risoluzione","textPreview":"TRIDENT SHIELD CTF | Guida di risoluzione","textChars":41,"textLines":1,"bbox":[54,678,520,20]}
+{"kind":"textbox","id":"sh/2x4nap4r","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1180,674,46,24]}
+{"kind":"notes","id":"nt/q6doou","slide":9,"text":""}
+{"kind":"slide","id":"sl/yhdnh0","slide":10,"title":"MODULO 7","textShapes":20}
+{"kind":"textbox","id":"sh/vahoza1g","slide":10,"text":"MODULO 7","textPreview":"MODULO 7","textChars":8,"textLines":1,"bbox":[54,38,360,28]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":10,"text":"AI Generativa e fiducia","textPreview":"AI Generativa e fiducia","textChars":23,"textLines":1,"bbox":[54,74,860,70]}
+{"kind":"shape","id":"sh/dg7adsji","slide":10,"bbox":[54,150,1172,1]}
+{"kind":"shape","id":"sh/6hcrmhk3","slide":10,"bbox":[70,190,335,136]}
+{"kind":"textbox","id":"sh/z25kb6xk","slide":10,"text":"Deepfake","textPreview":"Deepfake","textChars":8,"textLines":1,"bbox":[88,206,299,24]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":10,"text":"labiale, blink cadence, room tone, artefatti jawline","textPreview":"labiale, blink cadence, room tone, artefatti jawline","textChars":52,"textLines":1,"bbox":[88,238,299,80]}
+{"kind":"shape","id":"sh/d8v6psfi","slide":10,"bbox":[438,190,335,136]}
+{"kind":"textbox","id":"sh/6dcbulwv","slide":10,"text":"Phishing LLM","textPreview":"Phishing LLM","textChars":12,"textLines":1,"bbox":[456,206,299,24]}
+{"kind":"textbox","id":"sh/vy90je9c","slide":10,"text":"urgenza, stile troppo rifinito, SPF softfail, IP anomalo","textPreview":"urgenza, stile troppo rifinito, SPF softfail, IP anomalo","textChars":56,"textLines":1,"bbox":[456,238,299,80]}
+{"kind":"shape","id":"sh/nuxc3ylc","slide":10,"bbox":[806,190,335,136]}
+{"kind":"textbox","id":"sh/y90je9cv","slide":10,"text":"Flag dinamica","textPreview":"Flag dinamica","textChars":13,"textLines":1,"bbox":[824,206,299,24]}
+{"kind":"textbox","id":"sh/5wjudg7a","slide":10,"text":"CYBER + INFO + COG + PHYS","textPreview":"CYBER + INFO + COG + PHYS","textChars":25,"textLines":1,"bbox":[824,238,299,80]}
+{"kind":"shape","id":"sh/gbq1oryt","slide":10,"bbox":[86,370,30,30]}
+{"kind":"textbox","id":"sh/n29gr2p8","slide":10,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[86,374,30,24]}
+{"kind":"textbox","id":"sh/yhgn29gr","slide":10,"text":"Trattare il video del comandante come non autenticato.","textPreview":"Trattare il video del comandante come non autenticato.","textChars":54,"textLines":1,"bbox":[130,372,966,32]}
+{"kind":"shape","id":"sh/58z25kb6","slide":10,"bbox":[86,413,30,30]}
+{"kind":"textbox","id":"sh/gn29gr2p","slide":10,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[86,417,30,24]}
+{"kind":"textbox","id":"sh/neloj2t8","slide":10,"text":"Verificare fonte e comando tramite canale alternativo sicuro.","textPreview":"Verificare fonte e comando tramite canale alternativo sicuro.","textChars":61,"textLines":1,"bbox":[130,415,966,32]}
+{"kind":"shape","id":"sh/ytsvu9kn","slide":10,"bbox":[86,456,30,30]}
+{"kind":"textbox","id":"sh/2x4nap4r","slide":10,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[86,460,30,24]}
+{"kind":"textbox","id":"sh/vixczed8","slide":10,"text":"Analizzare l'email: allegato docm, SPF softfail, IP 203.0.113.77.","textPreview":"Analizzare l'email: allegato docm, SPF softfail, IP 203.0.113.77.","textChars":65,"textLines":1,"bbox":[130,458,966,32]}
+{"kind":"shape","id":"sh/k3q5o7qp","slide":10,"bbox":[86,499,30,30]}
+{"kind":"textbox","id":"sh/donyd0z6","slide":10,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[86,503,30,24]}
+{"kind":"textbox","id":"sh/6psfil0r","slide":10,"text":"Usare l'LLM solo per riassumere contraddizioni e domande di verifica.","textPreview":"Usare l'LLM solo per riassumere contraddizioni e domande di verifica.","textChars":69,"textLines":1,"bbox":[130,501,966,32]}
+{"kind":"shape","id":"sh/val87ed8","slide":10,"bbox":[86,542,30,30]}
+{"kind":"textbox","id":"sh/kre1w7mp","slide":10,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[86,546,30,24]}
+{"kind":"textbox","id":"sh/dcbulwva","slide":10,"text":"Produrre raccomandazione: nessun cambio operativo senza autenticazione.","textPreview":"Produrre raccomandazione: nessun cambio operativo senza autenticazione.","textChars":71,"textLines":1,"bbox":[130,544,966,32]}
+{"kind":"textbox","id":"sh/2lszqtcj","slide":10,"text":"TRIDENT SHIELD CTF | Guida di risoluzione","textPreview":"TRIDENT SHIELD CTF | Guida di risoluzione","textChars":41,"textLines":1,"bbox":[54,678,520,20]}
+{"kind":"textbox","id":"sh/v6psfil0","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1180,674,46,24]}
+{"kind":"notes","id":"nt/yhdnh0","slide":10,"text":""}
+{"kind":"slide","id":"sl/riobps","slide":11,"title":"FINAL MISSION","textShapes":11}
+{"kind":"textbox","id":"sh/d0z61032","slide":11,"text":"FINAL MISSION","textPreview":"FINAL MISSION","textChars":13,"textLines":1,"bbox":[54,38,360,28]}
+{"kind":"textbox","id":"sh/29gr2p8n","slide":11,"text":"Integrare tutti i moduli","textPreview":"Integrare tutti i moduli","textChars":24,"textLines":1,"bbox":[54,74,860,70]}
+{"kind":"shape","id":"sh/vu9knih4","slide":11,"bbox":[54,150,1172,1]}
+{"kind":"shape","id":"sh/knih4byh","slide":11,"bbox":[72,190,320,108]}
+{"kind":"textbox","id":"sh/d8bat47y","slide":11,"text":"1. Bloccare C2 e rimuovere persistence","textPreview":"1. Bloccare C2 e rimuovere persistence","textChars":38,"textLines":1,"bbox":[90,212,270,58]}
+{"kind":"shape","id":"sh/2lszqtcj","slide":11,"bbox":[442,190,320,108]}
+{"kind":"textbox","id":"sh/v6psfil0","slide":11,"text":"2. Ripristinare FRAGO firmato","textPreview":"2. Ripristinare FRAGO firmato","textChars":29,"textLines":1,"bbox":[460,212,270,58]}
+{"kind":"shape","id":"sh/kre1w7mp","slide":11,"bbox":[812,190,320,108]}
+{"kind":"textbox","id":"sh/dcbulwva","slide":11,"text":"3. Autenticare catena di comando","textPreview":"3. Autenticare catena di comando","textChars":32,"textLines":1,"bbox":[830,212,270,58]}
+{"kind":"shape","id":"sh/lszqtcj6","slide":11,"bbox":[72,345,320,108]}
+{"kind":"textbox","id":"sh/s72x4nap","slide":11,"text":"4. Contenere narrativa ostile","textPreview":"4. Contenere narrativa ostile","textChars":29,"textLines":1,"bbox":[90,367,270,58]}
+{"kind":"shape","id":"sh/3m94fu18","slide":11,"bbox":[442,345,320,108]}
+{"kind":"textbox","id":"sh/a5gbq1or","slide":11,"text":"5. Verificare rotta con navigazione alternativa","textPreview":"5. Verificare rotta con navigazione alternativa","textChars":47,"textLines":1,"bbox":[460,367,270,58]}
+{"kind":"shape","id":"sh/h4byhgn2","slide":11,"bbox":[812,345,320,108]}
+{"kind":"textbox","id":"sh/sji5snel","slide":11,"text":"6. Consegnare report con decisioni e prove","textPreview":"6. Consegnare report con decisioni e prove","textChars":42,"textLines":1,"bbox":[830,367,270,58]}
+{"kind":"textbox","id":"sh/3ylc7u54","slide":11,"text":"Flag finale: FLAG{C2-BLOCKED_FRAGO-SIGNED_TRUST-RESTORED_MISSION-OPERATIONAL}","textPreview":"Flag finale: FLAG{C2-BLOCKED_FRAGO-SIGNED_TRUST-RESTORED_MISSION-OPERATIONAL}","textChars":77,"textLines":1,"bbox":[72,560,1060,44]}
+{"kind":"textbox","id":"sh/adsji5sn","slide":11,"text":"TRIDENT SHIELD CTF | Guida di risoluzione","textPreview":"TRIDENT SHIELD CTF | Guida di risoluzione","textChars":41,"textLines":1,"bbox":[54,678,520,20]}
+{"kind":"textbox","id":"sh/hgn29gr2","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1180,674,46,24]}
+{"kind":"notes","id":"nt/riobps","slide":11,"text":""}
+{"kind":"slide","id":"sl/h0e73u","slide":12,"title":"DASHBOARD","textShapes":14}
+{"kind":"textbox","id":"sh/2lszqtcj","slide":12,"text":"DASHBOARD","textPreview":"DASHBOARD","textChars":9,"textLines":1,"bbox":[54,38,360,28]}
+{"kind":"textbox","id":"sh/d8bat47y","slide":12,"text":"Come assegnare il punteggio finale","textPreview":"Come assegnare il punteggio finale","textChars":34,"textLines":1,"bbox":[54,74,860,70]}
+{"kind":"shape","id":"sh/knih4byh","slide":12,"bbox":[54,150,1172,1]}
+{"kind":"shape","id":"sh/vu9knih4","slide":12,"bbox":[80,190,1060,58]}
+{"kind":"textbox","id":"sh/29gr2p8n","slide":12,"text":"Mission Success 30%","textPreview":"Mission Success 30%","textChars":19,"textLines":1,"bbox":[104,204,290,28]}
+{"kind":"textbox","id":"sh/d0z61032","slide":12,"text":"Continuita patrol/rescue, rotta verificata, comando operativo.","textPreview":"Continuita patrol/rescue, rotta verificata, comando operativo.","textChars":62,"textLines":1,"bbox":[420,205,670,26]}
+{"kind":"shape","id":"sh/kf6dcbul","slide":12,"bbox":[80,268,1060,58]}
+{"kind":"textbox","id":"sh/vixczed8","slide":12,"text":"Detection Time 20%","textPreview":"Detection Time 20%","textChars":18,"textLines":1,"bbox":[104,282,290,28]}
+{"kind":"textbox","id":"sh/2x4nap4r","slide":12,"text":"Accesso iniziale e C2 scoperti prima dell'impatto irreversibile.","textPreview":"Accesso iniziale e C2 scoperti prima dell'impatto irreversibile.","textChars":64,"textLines":1,"bbox":[420,283,670,26]}
+{"kind":"shape","id":"sh/gfmlkjm1","slide":12,"bbox":[80,346,1060,58]}
+{"kind":"textbox","id":"sh/90je9cvi","slide":12,"text":"Incident Response 20%","textPreview":"Incident Response 20%","textChars":21,"textLines":1,"bbox":[104,360,290,28]}
+{"kind":"textbox","id":"sh/yd0z6103","slide":12,"text":"Isolamento, reset credenziali, blocco IOC, restore FRAGO.","textPreview":"Isolamento, reset credenziali, blocco IOC, restore FRAGO.","textChars":57,"textLines":1,"bbox":[420,361,670,26]}
+{"kind":"shape","id":"sh/rytsvu9k","slide":12,"bbox":[80,424,1060,58]}
+{"kind":"textbox","id":"sh/g7adsji5","slide":12,"text":"Cyber-Social Impact 20%","textPreview":"Cyber-Social Impact 20%","textChars":23,"textLines":1,"bbox":[104,438,290,28]}
+{"kind":"textbox","id":"sh/9s36hcrm","slide":12,"text":"Narrativa corretta, deepfake smentito, fiducia equipaggi recuperata.","textPreview":"Narrativa corretta, deepfake smentito, fiducia equipaggi recuperata.","textChars":68,"textLines":1,"bbox":[420,439,670,26]}
+{"kind":"shape","id":"sh/y1kre1w7","slide":12,"bbox":[80,502,1060,58]}
+{"kind":"textbox","id":"sh/rmhk3q5o","slide":12,"text":"Team Coordination 10%","textPreview":"Team Coordination 10%","textChars":21,"textLines":1,"bbox":[104,516,290,28]}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":12,"text":"Ruoli sincronizzati, decisioni documentate, legal/PA coinvolti.","textPreview":"Ruoli sincronizzati, decisioni documentate, legal/PA coinvolti.","textChars":63,"textLines":1,"bbox":[420,517,670,26]}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":12,"text":"TRIDENT SHIELD CTF | Guida di risoluzione","textPreview":"TRIDENT SHIELD CTF | Guida di risoluzione","textChars":41,"textLines":1,"bbox":[54,678,520,20]}
+{"kind":"textbox","id":"sh/p0bi9s36","slide":12,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1180,674,46,24]}
+{"kind":"notes","id":"nt/h0e73u","slide":12,"text":""}
+{"kind":"slide","id":"sl/v1wexs","slide":13,"title":"CHECKLIST","textShapes":22}
+{"kind":"textbox","id":"sh/mtwra5gb","slide":13,"text":"CHECKLIST","textPreview":"CHECKLIST","textChars":9,"textLines":1,"bbox":[54,38,360,28]}
+{"kind":"textbox","id":"sh/xkf6dcbu","slide":13,"text":"Output richiesti dagli studenti","textPreview":"Output richiesti dagli studenti","textChars":31,"textLines":1,"bbox":[54,74,860,70]}
+{"kind":"shape","id":"sh/4zidonyd","slide":13,"bbox":[54,150,1172,1]}
+{"kind":"textbox","id":"sh/f6dcbulw","slide":13,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[86,188,20,24]}
+{"kind":"textbox","id":"sh/mlkjm1cf","slide":13,"text":"Timeline completa dell'attacco con timestamp e fonti.","textPreview":"Timeline completa dell'attacco con timestamp e fonti.","textChars":53,"textLines":1,"bbox":[114,188,852,46]}
+{"kind":"textbox","id":"sh/xc3ylc7u","slide":13,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[86,234,20,24]}
+{"kind":"textbox","id":"sh/4r65wjud","slide":13,"text":"Matrice dei quattro domini con prove specifiche.","textPreview":"Matrice dei quattro domini con prove specifiche.","textChars":48,"textLines":1,"bbox":[114,234,852,46]}
+{"kind":"textbox","id":"sh/fu18jqh0","slide":13,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[86,280,20,24]}
+{"kind":"textbox","id":"sh/m94fu18j","slide":13,"text":"IOC prioritari e TTP MITRE ATT&CK.","textPreview":"IOC prioritari e TTP MITRE ATT&CK.","textChars":34,"textLines":1,"bbox":[114,280,852,46]}
+{"kind":"textbox","id":"sh/sji5snel","slide":13,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[86,326,20,24]}
+{"kind":"textbox","id":"sh/h4byhgn2","slide":13,"text":"Scheda malware: C2, persistence, payload.","textPreview":"Scheda malware: C2, persistence, payload.","textChars":41,"textLines":1,"bbox":[114,326,852,46]}
+{"kind":"textbox","id":"sh/adsji5sn","slide":13,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[86,372,20,24]}
+{"kind":"textbox","id":"sh/3ylc7u54","slide":13,"text":"Decision log wargaming per ogni inject.","textPreview":"Decision log wargaming per ogni inject.","textChars":39,"textLines":1,"bbox":[114,372,852,46]}
+{"kind":"textbox","id":"sh/s72x4nap","slide":13,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[86,418,20,24]}
+{"kind":"textbox","id":"sh/lszqtcj6","slide":13,"text":"Analisi hybrid warfare con prove OSINT/AIS/social.","textPreview":"Analisi hybrid warfare con prove OSINT/AIS/social.","textChars":50,"textLines":1,"bbox":[114,418,852,46]}
+{"kind":"textbox","id":"sh/a5gbq1or","slide":13,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[86,464,20,24]}
+{"kind":"textbox","id":"sh/3m94fu18","slide":13,"text":"Valutazione deepfake/phishing LLM e piano di verifica.","textPreview":"Valutazione deepfake/phishing LLM e piano di verifica.","textChars":54,"textLines":1,"bbox":[114,464,852,46]}
+{"kind":"textbox","id":"sh/s36hcrmh","slide":13,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[86,510,20,24]}
+{"kind":"textbox","id":"sh/hoza1gvy","slide":13,"text":"Score finale motivato e flag validate nell'app.","textPreview":"Score finale motivato e flag validate nell'app.","textChars":47,"textLines":1,"bbox":[114,510,852,46]}
+{"kind":"shape","id":"sh/lkjm1cfa","slide":13,"bbox":[970,200,170,260]}
+{"kind":"textbox","id":"sh/szqtcj6t","slide":13,"text":"Criterio","textPreview":"Criterio","textChars":8,"textLines":1,"bbox":[996,232,120,32]}
+{"kind":"textbox","id":"sh/3ex0nuxc","slide":13,"text":"La risposta migliore non e quella piu veloce: e quella con evidenza, correlazione e decisione coerente.","textPreview":"La risposta migliore non e quella piu veloce: e quella con evidenza, correlazione e decisione coerente.","textChars":103,"textLines":1,"bbox":[996,292,110,130]}
+{"kind":"textbox","id":"sh/at47y1kr","slide":13,"text":"TRIDENT SHIELD CTF | Guida di risoluzione","textPreview":"TRIDENT SHIELD CTF | Guida di risoluzione","textChars":41,"textLines":1,"bbox":[54,678,520,20]}
+{"kind":"textbox","id":"sh/l87ed8ba","slide":13,"text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1180,674,46,24]}
+{"kind":"notes","id":"nt/v1wexs","slide":13,"text":""}
+{"kind":"slide","id":"sl/rn6ksm","slide":14,"title":"FLAG SUMMARY","textShapes":20}
+{"kind":"textbox","id":"sh/bq1oryts","slide":14,"text":"FLAG SUMMARY","textPreview":"FLAG SUMMARY","textChars":12,"textLines":1,"bbox":[54,38,360,28]}
+{"kind":"textbox","id":"sh/4byhgn29","slide":14,"text":"Token dei quattro domini","textPreview":"Token dei quattro domini","textChars":24,"textLines":1,"bbox":[54,74,860,70]}
+{"kind":"shape","id":"sh/twra5gbq","slide":14,"bbox":[54,150,1172,1]}
+{"kind":"shape","id":"sh/mhk3q5o7","slide":14,"bbox":[88,190,485,58]}
+{"kind":"textbox","id":"sh/b2hwfyxo","slide":14,"text":"M1","textPreview":"M1","textChars":2,"textLines":1,"bbox":[106,204,80,28]}
+{"kind":"textbox","id":"sh/4nap4r65","slide":14,"text":"PHISHING-C2 / FAKE-FRAGO / CREW-DISTRUST / NAV-DEVIATION","textPreview":"PHISHING-C2 / FAKE-FRAGO / CREW-DISTRUST / NAV-DEVIATION","textChars":56,"textLines":1,"bbox":[198,202,330,34]}
+{"kind":"shape","id":"sh/t83itgfm","slide":14,"bbox":[633,190,485,58]}
+{"kind":"textbox","id":"sh/mp0bi9s3","slide":14,"text":"M2","textPreview":"M2","textChars":2,"textLines":1,"bbox":[651,204,80,28]}
+{"kind":"textbox","id":"sh/bat47y1k","slide":14,"text":"SEA-GHOST / T1565.002 / T1566.001 / FRAGO-TAMPERING","textPreview":"SEA-GHOST / T1565.002 / T1566.001 / FRAGO-TAMPERING","textChars":51,"textLines":1,"bbox":[743,202,330,34]}
+{"kind":"shape","id":"sh/ji5snelo","slide":14,"bbox":[88,278,485,58]}
+{"kind":"textbox","id":"sh/uxc3ylc7","slide":14,"text":"M3","textPreview":"M3","textChars":2,"textLines":1,"bbox":[106,292,80,28]}
+{"kind":"textbox","id":"sh/1kre1w7m","slide":14,"text":"EDR-ISOLATION / PA-CORRECTION / CREW-BRIEF / FRAGO-RESTORE","textPreview":"EDR-ISOLATION / PA-CORRECTION / CREW-BRIEF / FRAGO-RESTORE","textChars":58,"textLines":1,"bbox":[198,290,330,34]}
+{"kind":"shape","id":"sh/c3ylc7u5","slide":14,"bbox":[633,278,485,58]}
+{"kind":"textbox","id":"sh/j6tovaho","slide":14,"text":"M4","textPreview":"M4","textChars":2,"textLines":1,"bbox":[651,292,80,28]}
+{"kind":"textbox","id":"sh/ulwval87","slide":14,"text":"TRIDENTSYNC / REPLACE-FRAGO / FALSE-ORDERS / NAVSHARE-COLLECT","textPreview":"TRIDENTSYNC / REPLACE-FRAGO / FALSE-ORDERS / NAVSHARE-COLLECT","textChars":61,"textLines":1,"bbox":[743,290,330,34]}
+{"kind":"shape","id":"sh/1cfa9w3m","slide":14,"bbox":[88,366,485,58]}
+{"kind":"textbox","id":"sh/crmhk3q5","slide":14,"text":"M5","textPreview":"M5","textChars":2,"textLines":1,"bbox":[106,380,80,28]}
+{"kind":"textbox","id":"sh/j2t83itg","slide":14,"text":"ISOLATE-SPOOFING / LEGAL-PA / AUTH-COMMAND / MANUAL-NAV","textPreview":"ISOLATE-SPOOFING / LEGAL-PA / AUTH-COMMAND / MANUAL-NAV","textChars":55,"textLines":1,"bbox":[198,378,330,34]}
+{"kind":"shape","id":"sh/qh0fepkz","slide":14,"bbox":[633,366,485,58]}
+{"kind":"textbox","id":"sh/i5sneloj","slide":14,"text":"M6","textPreview":"M6","textChars":2,"textLines":1,"bbox":[651,380,80,28]}
+{"kind":"textbox","id":"sh/7qpg3ex0","slide":14,"text":"AIS-GW / COORD-NARRATIVE / FAMILY-PRESSURE / IMPOSSIBLE-JUMP","textPreview":"AIS-GW / COORD-NARRATIVE / FAMILY-PRESSURE / IMPOSSIBLE-JUMP","textChars":60,"textLines":1,"bbox":[743,378,330,34]}
+{"kind":"shape","id":"sh/0bi9s36h","slide":14,"bbox":[88,454,485,58]}
+{"kind":"textbox","id":"sh/pwb2hwfy","slide":14,"text":"M7","textPreview":"M7","textChars":2,"textLines":1,"bbox":[106,468,80,28]}
+{"kind":"textbox","id":"sh/ed8v6psf","slide":14,"text":"SPF-SOFTFAIL / SYNTH-MEDIA / TRUST-VERIFY / NO-WITHDRAWAL","textPreview":"SPF-SOFTFAIL / SYNTH-MEDIA / TRUST-VERIFY / NO-WITHDRAWAL","textChars":57,"textLines":1,"bbox":[198,466,330,34]}
+{"kind":"shape","id":"sh/7y1kre1w","slide":14,"bbox":[633,454,485,58]}
+{"kind":"textbox","id":"sh/wjudg7ad","slide":14,"text":"Final","textPreview":"Final","textChars":5,"textLines":1,"bbox":[651,468,80,28]}
+{"kind":"textbox","id":"sh/p4r65wju","slide":14,"text":"C2-BLOCKED / FRAGO-SIGNED / TRUST-RESTORED / MISSION-OPERATIONAL","textPreview":"C2-BLOCKED / FRAGO-SIGNED / TRUST-RESTORED / MISSION-OPERATIONAL","textChars":64,"textLines":1,"bbox":[743,466,330,34]}
+{"kind":"textbox","id":"sh/ih4byhgn","slide":14,"text":"TRIDENT SHIELD CTF | Guida di risoluzione","textPreview":"TRIDENT SHIELD CTF | Guida di risoluzione","textChars":41,"textLines":1,"bbox":[54,678,520,20]}
+{"kind":"textbox","id":"sh/72x4nap4","slide":14,"text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[1180,674,46,24]}
+{"kind":"notes","id":"nt/rn6ksm","slide":14,"text":""}
+{"kind":"slide","id":"sl/tl0bbm","slide":15,"title":"SOLUZIONE MODULO 1","textShapes":33}
+{"kind":"textbox","id":"sh/b6xkf6dc","slide":15,"text":"SOLUZIONE MODULO 1","textPreview":"SOLUZIONE MODULO 1","textChars":18,"textLines":1,"bbox":[54,38,360,28]}
+{"kind":"textbox","id":"sh/0rqd4vmt","slide":15,"text":"Attack Path Mapping","textPreview":"Attack Path Mapping","textChars":19,"textLines":1,"bbox":[54,74,860,70]}
+{"kind":"shape","id":"sh/tcj6tova","slide":15,"bbox":[54,150,1172,1]}
+{"kind":"shape","id":"sh/idonyd0z","slide":15,"bbox":[68,188,350,360]}
+{"kind":"textbox","id":"sh/byhgn29g","slide":15,"text":"Evidenze da leggere","textPreview":"Evidenze da leggere","textChars":19,"textLines":1,"bbox":[92,216,260,28]}
+{"kind":"textbox","id":"sh/0je9cvix","slide":15,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[92,268,20,24]}
+{"kind":"textbox","id":"sh/t47y1kre","slide":15,"text":"email.eml: ROE_Update.xlsm e urgenza artificiale","textPreview":"email.eml: ROE_Update.xlsm e urgenza artificiale","textChars":48,"textLines":1,"bbox":[120,268,257,48]}
+{"kind":"textbox","id":"sh/i9s36hcr","slide":15,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[92,316,20,24]}
+{"kind":"textbox","id":"sh/bulwval8","slide":15,"text":"soc.log: PowerShell, C2 e modifica FRAGO","textPreview":"soc.log: PowerShell, C2 e modifica FRAGO","textChars":40,"textLines":1,"bbox":[120,316,257,48]}
+{"kind":"textbox","id":"sh/j6tovaho","slide":15,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[92,364,20,24]}
+{"kind":"textbox","id":"sh/ulwval87","slide":15,"text":"social/HUMINT: leak e sfiducia equipaggio","textPreview":"social/HUMINT: leak e sfiducia equipaggio","textChars":41,"textLines":1,"bbox":[120,364,257,48]}
+{"kind":"textbox","id":"sh/1cfa9w3m","slide":15,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[92,412,20,24]}
+{"kind":"textbox","id":"sh/crmhk3q5","slide":15,"text":"satellite/AIS: rotta fuori patrol box","textPreview":"satellite/AIS: rotta fuori patrol box","textChars":37,"textLines":1,"bbox":[120,412,257,48]}
+{"kind":"shape","id":"sh/ji5snelo","slide":15,"bbox":[458,188,330,360]}
+{"kind":"textbox","id":"sh/uxc3ylc7","slide":15,"text":"Token dominio","textPreview":"Token dominio","textChars":13,"textLines":1,"bbox":[482,216,230,28]}
+{"kind":"textbox","id":"sh/1kre1w7m","slide":15,"text":"Cyber","textPreview":"Cyber","textChars":5,"textLines":1,"bbox":[482,272,116,24]}
+{"kind":"textbox","id":"sh/c3ylc7u5","slide":15,"text":"PHISHING-C2","textPreview":"PHISHING-C2","textChars":11,"textLines":1,"bbox":[602,272,150,24]}
+{"kind":"textbox","id":"sh/jqh0fepk","slide":15,"text":"Information","textPreview":"Information","textChars":11,"textLines":1,"bbox":[482,330,116,24]}
+{"kind":"textbox","id":"sh/q5o7qpg3","slide":15,"text":"FAKE-FRAGO","textPreview":"FAKE-FRAGO","textChars":10,"textLines":1,"bbox":[602,330,150,24]}
+{"kind":"textbox","id":"sh/itgfmlkj","slide":15,"text":"Cognitive","textPreview":"Cognitive","textChars":9,"textLines":1,"bbox":[482,388,116,24]}
+{"kind":"textbox","id":"sh/7ed8bat4","slide":15,"text":"CREW-DISTRUST","textPreview":"CREW-DISTRUST","textChars":13,"textLines":1,"bbox":[602,388,150,24]}
+{"kind":"textbox","id":"sh/0z61032l","slide":15,"text":"Physical","textPreview":"Physical","textChars":8,"textLines":1,"bbox":[482,446,116,24]}
+{"kind":"textbox","id":"sh/pkzupwb2","slide":15,"text":"NAV-DEVIATION","textPreview":"NAV-DEVIATION","textChars":13,"textLines":1,"bbox":[602,446,150,24]}
+{"kind":"shape","id":"sh/ih4byhgn","slide":15,"bbox":[828,188,350,360]}
+{"kind":"textbox","id":"sh/72x4nap4","slide":15,"text":"Ragionamento","textPreview":"Ragionamento","textChars":12,"textLines":1,"bbox":[854,216,230,28]}
+{"kind":"textbox","id":"sh/0nuxc3yl","slide":15,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[854,270,20,24]}
+{"kind":"textbox","id":"sh/p8nqxs72","slide":15,"text":"La compromissione iniziale e cyber.","textPreview":"La compromissione iniziale e cyber.","textChars":35,"textLines":1,"bbox":[882,270,252,47]}
+{"kind":"textbox","id":"sh/ed8v6psf","slide":15,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[854,317,20,24]}
+{"kind":"textbox","id":"sh/7y1kre1w","slide":15,"text":"Il FRAGO manipolato diventa informazione ostile.","textPreview":"Il FRAGO manipolato diventa informazione ostile.","textChars":48,"textLines":1,"bbox":[882,317,252,47]}
+{"kind":"textbox","id":"sh/x0nuxc3y","slide":15,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[854,364,20,24]}
+{"kind":"textbox","id":"sh/4fu18jqh","slide":15,"text":"La sfiducia genera effetto cognitivo.","textPreview":"La sfiducia genera effetto cognitivo.","textChars":37,"textLines":1,"bbox":[882,364,252,47]}
+{"kind":"textbox","id":"sh/fu18jqh0","slide":15,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[854,411,20,24]}
+{"kind":"textbox","id":"sh/m94fu18j","slide":15,"text":"La rotta alterata chiude il dominio fisico.","textPreview":"La rotta alterata chiude il dominio fisico.","textChars":43,"textLines":1,"bbox":[882,411,252,47]}
+{"kind":"textbox","id":"sh/xobm58z2","slide":15,"text":"Flag composta","textPreview":"Flag composta","textChars":13,"textLines":1,"bbox":[76,584,220,24]}
+{"kind":"textbox","id":"sh/83itgfml","slide":15,"text":"FLAG{PHISHING-C2_FAKE-FRAGO_CREW-DISTRUST_NAV-DEVIATION}","textPreview":"FLAG{PHISHING-C2_FAKE-FRAGO_CREW-DISTRUST_NAV-DEVIATION}","textChars":56,"textLines":1,"bbox":[76,610,1080,38]}
+{"kind":"textbox","id":"sh/fil0rqd4","slide":15,"text":"TRIDENT SHIELD CTF | Guida di risoluzione","textPreview":"TRIDENT SHIELD CTF | Guida di risoluzione","textChars":41,"textLines":1,"bbox":[54,678,520,20]}
+{"kind":"textbox","id":"sh/qxs72x4n","slide":15,"text":"15","textPreview":"15","textChars":2,"textLines":1,"bbox":[1180,674,46,24]}
+{"kind":"notes","id":"nt/tl0bbm","slide":15,"text":""}
+{"kind":"slide","id":"sl/zwwqlr","slide":16,"title":"SOLUZIONE MODULO 2","textShapes":33}
+{"kind":"textbox","id":"sh/lc7u54zi","slide":16,"text":"SOLUZIONE MODULO 2","textPreview":"SOLUZIONE MODULO 2","textChars":18,"textLines":1,"bbox":[54,38,360,28]}
+{"kind":"textbox","id":"sh/eloj2t83","slide":16,"text":"Cyber Threat Intelligence","textPreview":"Cyber Threat Intelligence","textChars":25,"textLines":1,"bbox":[54,74,860,70]}
+{"kind":"shape","id":"sh/36hcrmhk","slide":16,"bbox":[54,150,1172,1]}
+{"kind":"shape","id":"sh/wfyxobm5","slide":16,"bbox":[68,188,350,360]}
+{"kind":"textbox","id":"sh/l0rqd4vm","slide":16,"text":"Evidenze da leggere","textPreview":"Evidenze da leggere","textChars":19,"textLines":1,"bbox":[92,216,260,28]}
+{"kind":"textbox","id":"sh/ed8bat47","slide":16,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[92,268,20,24]}
+{"kind":"textbox","id":"sh/7u54zido","slide":16,"text":"iocs.csv: dominio, IP, mutex e Run key","textPreview":"iocs.csv: dominio, IP, mutex e Run key","textChars":38,"textLines":1,"bbox":[120,268,257,48]}
+{"kind":"textbox","id":"sh/w7mp0bi9","slide":16,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[92,316,20,24]}
+{"kind":"textbox","id":"sh/psfil0rq","slide":16,"text":"yara_rule.yar: stringhe del beacon","textPreview":"yara_rule.yar: stringhe del beacon","textChars":34,"textLines":1,"bbox":[120,316,257,48]}
+{"kind":"textbox","id":"sh/tsvu9kni","slide":16,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[92,364,20,24]}
+{"kind":"textbox","id":"sh/47y1kre1","slide":16,"text":"mitre-mapping.csv: TTP principali","textPreview":"mitre-mapping.csv: TTP principali","textChars":33,"textLines":1,"bbox":[120,364,257,48]}
+{"kind":"textbox","id":"sh/bm58z25k","slide":16,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[92,412,20,24]}
+{"kind":"textbox","id":"sh/m1cfa9w3","slide":16,"text":"kill_chain.md: cluster SEA-GHOST","textPreview":"kill_chain.md: cluster SEA-GHOST","textChars":32,"textLines":1,"bbox":[120,412,257,48]}
+{"kind":"shape","id":"sh/tgfmlkjm","slide":16,"bbox":[458,188,330,360]}
+{"kind":"textbox","id":"sh/4vmtwra5","slide":16,"text":"Token dominio","textPreview":"Token dominio","textChars":13,"textLines":1,"bbox":[482,216,230,28]}
+{"kind":"textbox","id":"sh/bat47y1k","slide":16,"text":"Cyber","textPreview":"Cyber","textChars":5,"textLines":1,"bbox":[482,272,116,24]}
+{"kind":"textbox","id":"sh/mp0bi9s3","slide":16,"text":"SEA-GHOST","textPreview":"SEA-GHOST","textChars":9,"textLines":1,"bbox":[602,272,150,24]}
+{"kind":"textbox","id":"sh/t83itgfm","slide":16,"text":"Information","textPreview":"Information","textChars":11,"textLines":1,"bbox":[482,330,116,24]}
+{"kind":"textbox","id":"sh/4nap4r65","slide":16,"text":"T1565.002","textPreview":"T1565.002","textChars":9,"textLines":1,"bbox":[602,330,150,24]}
+{"kind":"textbox","id":"sh/0rqd4vmt","slide":16,"text":"Cognitive","textPreview":"Cognitive","textChars":9,"textLines":1,"bbox":[482,388,116,24]}
+{"kind":"textbox","id":"sh/tcj6tova","slide":16,"text":"T1566.001","textPreview":"T1566.001","textChars":9,"textLines":1,"bbox":[602,388,150,24]}
+{"kind":"textbox","id":"sh/il0rqd4v","slide":16,"text":"Physical","textPreview":"Physical","textChars":8,"textLines":1,"bbox":[482,446,116,24]}
+{"kind":"textbox","id":"sh/b6xkf6dc","slide":16,"text":"FRAGO-TAMPERING","textPreview":"FRAGO-TAMPERING","textChars":15,"textLines":1,"bbox":[602,446,150,24]}
+{"kind":"shape","id":"sh/0je9cvix","slide":16,"bbox":[828,188,350,360]}
+{"kind":"textbox","id":"sh/t47y1kre","slide":16,"text":"Ragionamento","textPreview":"Ragionamento","textChars":12,"textLines":1,"bbox":[854,216,230,28]}
+{"kind":"textbox","id":"sh/idonyd0z","slide":16,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[854,270,20,24]}
+{"kind":"textbox","id":"sh/byhgn29g","slide":16,"text":"Attribuzione simulata dal kill chain.","textPreview":"Attribuzione simulata dal kill chain.","textChars":37,"textLines":1,"bbox":[882,270,252,47]}
+{"kind":"textbox","id":"sh/0fepkzup","slide":16,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[854,317,20,24]}
+{"kind":"textbox","id":"sh/p0bi9s36","slide":16,"text":"T1565.002 spiega la manipolazione dati.","textPreview":"T1565.002 spiega la manipolazione dati.","textChars":39,"textLines":1,"bbox":[882,317,252,47]}
+{"kind":"textbox","id":"sh/zed8v6ps","slide":16,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[854,364,20,24]}
+{"kind":"textbox","id":"sh/6xkf6dcb","slide":16,"text":"T1566.001 spiega l'allegato phishing.","textPreview":"T1566.001 spiega l'allegato phishing.","textChars":37,"textLines":1,"bbox":[882,364,252,47]}
+{"kind":"textbox","id":"sh/hk3q5o7q","slide":16,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[854,411,20,24]}
+{"kind":"textbox","id":"sh/oza1gvy9","slide":16,"text":"Il FRAGO manomesso produce rischio operativo.","textPreview":"Il FRAGO manomesso produce rischio operativo.","textChars":45,"textLines":1,"bbox":[882,411,252,47]}
+{"kind":"textbox","id":"sh/zqtcj6to","slide":16,"text":"Flag composta","textPreview":"Flag composta","textChars":13,"textLines":1,"bbox":[76,584,220,24]}
+{"kind":"textbox","id":"sh/65wjudg7","slide":16,"text":"FLAG{SEA-GHOST_T1565.002_T1566.001_FRAGO-TAMPERING}","textPreview":"FLAG{SEA-GHOST_T1565.002_T1566.001_FRAGO-TAMPERING}","textChars":51,"textLines":1,"bbox":[76,610,1080,38]}
+{"kind":"textbox","id":"sh/hwfyxobm","slide":16,"text":"TRIDENT SHIELD CTF | Guida di risoluzione","textPreview":"TRIDENT SHIELD CTF | Guida di risoluzione","textChars":41,"textLines":1,"bbox":[54,678,520,20]}
+{"kind":"textbox","id":"sh/obm58z25","slide":16,"text":"16","textPreview":"16","textChars":2,"textLines":1,"bbox":[1180,674,46,24]}
+{"kind":"notes","id":"nt/zwwqlr","slide":16,"text":""}
+{"kind":"slide","id":"sl/st8c3h","slide":17,"title":"SOLUZIONE MODULO 3","textShapes":33}
+{"kind":"textbox","id":"sh/t83itgfm","slide":17,"text":"SOLUZIONE MODULO 3","textPreview":"SOLUZIONE MODULO 3","textChars":18,"textLines":1,"bbox":[54,38,360,28]}
+{"kind":"textbox","id":"sh/mhk3q5o7","slide":17,"text":"Red Team vs Blue Team","textPreview":"Red Team vs Blue Team","textChars":21,"textLines":1,"bbox":[54,74,860,70]}
+{"kind":"shape","id":"sh/b2hwfyxo","slide":17,"bbox":[54,150,1172,1]}
+{"kind":"shape","id":"sh/4byhgn29","slide":17,"bbox":[68,188,350,360]}
+{"kind":"textbox","id":"sh/twra5gbq","slide":17,"text":"Evidenze da leggere","textPreview":"Evidenze da leggere","textChars":19,"textLines":1,"bbox":[92,216,260,28]}
+{"kind":"textbox","id":"sh/m58z25kb","slide":17,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[92,268,20,24]}
+{"kind":"textbox","id":"sh/bq1oryts","slide":17,"text":"blue-team-cards.md: azioni difensive","textPreview":"blue-team-cards.md: azioni difensive","textChars":36,"textLines":1,"bbox":[120,268,257,48]}
+{"kind":"textbox","id":"sh/47y1kre1","slide":17,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[92,316,20,24]}
+{"kind":"textbox","id":"sh/tsvu9kni","slide":17,"text":"scoring-sheet.csv: turni e punteggi","textPreview":"scoring-sheet.csv: turni e punteggi","textChars":35,"textLines":1,"bbox":[120,316,257,48]}
+{"kind":"textbox","id":"sh/90je9cvi","slide":17,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[92,364,20,24]}
+{"kind":"textbox","id":"sh/gfmlkjm1","slide":17,"text":"red-team-cards.md: compromissione prevista","textPreview":"red-team-cards.md: compromissione prevista","textChars":42,"textLines":1,"bbox":[120,364,257,48]}
+{"kind":"textbox","id":"sh/rytsvu9k","slide":17,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[92,412,20,24]}
+{"kind":"textbox","id":"sh/yd0z6103","slide":17,"text":"mission effect: continuita operativa","textPreview":"mission effect: continuita operativa","textChars":36,"textLines":1,"bbox":[120,412,257,48]}
+{"kind":"shape","id":"sh/9s36hcrm","slide":17,"bbox":[458,188,330,360]}
+{"kind":"textbox","id":"sh/g7adsji5","slide":17,"text":"Token dominio","textPreview":"Token dominio","textChars":13,"textLines":1,"bbox":[482,216,230,28]}
+{"kind":"textbox","id":"sh/rmhk3q5o","slide":17,"text":"Cyber","textPreview":"Cyber","textChars":5,"textLines":1,"bbox":[482,272,116,24]}
+{"kind":"textbox","id":"sh/y1kre1w7","slide":17,"text":"EDR-ISOLATION","textPreview":"EDR-ISOLATION","textChars":13,"textLines":1,"bbox":[602,272,150,24]}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":17,"text":"Information","textPreview":"Information","textChars":11,"textLines":1,"bbox":[482,330,116,24]}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":17,"text":"PA-CORRECTION","textPreview":"PA-CORRECTION","textChars":13,"textLines":1,"bbox":[602,330,150,24]}
+{"kind":"textbox","id":"sh/cfa9w3m9","slide":17,"text":"Cognitive","textPreview":"Cognitive","textChars":9,"textLines":1,"bbox":[482,388,116,24]}
+{"kind":"textbox","id":"sh/1032lszq","slide":17,"text":"CREW-BRIEF","textPreview":"CREW-BRIEF","textChars":10,"textLines":1,"bbox":[602,388,150,24]}
+{"kind":"textbox","id":"sh/u9knih4b","slide":17,"text":"Physical","textPreview":"Physical","textChars":8,"textLines":1,"bbox":[482,446,116,24]}
+{"kind":"textbox","id":"sh/judg7ads","slide":17,"text":"FRAGO-RESTORE","textPreview":"FRAGO-RESTORE","textChars":13,"textLines":1,"bbox":[602,446,150,24]}
+{"kind":"shape","id":"sh/c7u54zid","slide":17,"bbox":[828,188,350,360]}
+{"kind":"textbox","id":"sh/1orytsvu","slide":17,"text":"Ragionamento","textPreview":"Ragionamento","textChars":12,"textLines":1,"bbox":[854,216,230,28]}
+{"kind":"textbox","id":"sh/u18jqh0f","slide":17,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[854,270,20,24]}
+{"kind":"textbox","id":"sh/jm1cfa9w","slide":17,"text":"EDR contiene la workstation.","textPreview":"EDR contiene la workstation.","textChars":28,"textLines":1,"bbox":[882,270,252,47]}
+{"kind":"textbox","id":"sh/cvixczed","slide":17,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[854,317,20,24]}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":17,"text":"Public Affairs riduce fake narrative.","textPreview":"Public Affairs riduce fake narrative.","textChars":37,"textLines":1,"bbox":[882,317,252,47]}
+{"kind":"textbox","id":"sh/val87ed8","slide":17,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[854,364,20,24]}
+{"kind":"textbox","id":"sh/6psfil0r","slide":17,"text":"Crew brief recupera fiducia interna.","textPreview":"Crew brief recupera fiducia interna.","textChars":36,"textLines":1,"bbox":[882,364,252,47]}
+{"kind":"textbox","id":"sh/dcbulwva","slide":17,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[854,411,20,24]}
+{"kind":"textbox","id":"sh/kre1w7mp","slide":17,"text":"Restore FRAGO ripristina ordine operativo.","textPreview":"Restore FRAGO ripristina ordine operativo.","textChars":42,"textLines":1,"bbox":[882,411,252,47]}
+{"kind":"textbox","id":"sh/vixczed8","slide":17,"text":"Flag composta","textPreview":"Flag composta","textChars":13,"textLines":1,"bbox":[76,584,220,24]}
+{"kind":"textbox","id":"sh/2x4nap4r","slide":17,"text":"FLAG{EDR-ISOLATION_PA-CORRECTION_CREW-BRIEF_FRAGO-RESTORE}","textPreview":"FLAG{EDR-ISOLATION_PA-CORRECTION_CREW-BRIEF_FRAGO-RESTORE}","textChars":58,"textLines":1,"bbox":[76,610,1080,38]}
+{"kind":"textbox","id":"sh/donyd0z6","slide":17,"text":"TRIDENT SHIELD CTF | Guida di risoluzione","textPreview":"TRIDENT SHIELD CTF | Guida di risoluzione","textChars":41,"textLines":1,"bbox":[54,678,520,20]}
+{"kind":"textbox","id":"sh/k3q5o7qp","slide":17,"text":"17","textPreview":"17","textChars":2,"textLines":1,"bbox":[1180,674,46,24]}
+{"kind":"notes","id":"nt/st8c3h","slide":17,"text":""}
+{"kind":"slide","id":"sl/3l2idy","slide":18,"title":"SOLUZIONE MODULO 4","textShapes":33}
+{"kind":"textbox","id":"sh/xkf6dcbu","slide":18,"text":"SOLUZIONE MODULO 4","textPreview":"SOLUZIONE MODULO 4","textChars":18,"textLines":1,"bbox":[54,38,360,28]}
+{"kind":"textbox","id":"sh/mtwra5gb","slide":18,"text":"Malware Analysis","textPreview":"Malware Analysis","textChars":16,"textLines":1,"bbox":[54,74,860,70]}
+{"kind":"shape","id":"sh/fepkzupw","slide":18,"bbox":[54,150,1172,1]}
+{"kind":"shape","id":"sh/4r65wjud","slide":18,"bbox":[68,188,350,360]}
+{"kind":"textbox","id":"sh/xc3ylc7u","slide":18,"text":"Evidenze da leggere","textPreview":"Evidenze da leggere","textChars":19,"textLines":1,"bbox":[92,216,260,28]}
+{"kind":"textbox","id":"sh/mlkjm1cf","slide":18,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[92,268,20,24]}
+{"kind":"textbox","id":"sh/f6dcbulw","slide":18,"text":"strings.txt: TridentSync, URI e comandi","textPreview":"strings.txt: TridentSync, URI e comandi","textChars":39,"textLines":1,"bbox":[120,268,257,48]}
+{"kind":"textbox","id":"sh/4fu18jqh","slide":18,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[92,316,20,24]}
+{"kind":"textbox","id":"sh/x0nuxc3y","slide":18,"text":"volatility-output.txt: processo e Run key","textPreview":"volatility-output.txt: processo e Run key","textChars":41,"textLines":1,"bbox":[120,316,257,48]}
+{"kind":"textbox","id":"sh/lkjm1cfa","slide":18,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[92,364,20,24]}
+{"kind":"textbox","id":"sh/szqtcj6t","slide":18,"text":"pcap-summary.txt: SNI, User-Agent e POST","textPreview":"pcap-summary.txt: SNI, User-Agent e POST","textChars":40,"textLines":1,"bbox":[120,364,257,48]}
+{"kind":"textbox","id":"sh/3ex0nuxc","slide":18,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[92,412,20,24]}
+{"kind":"textbox","id":"sh/at47y1kr","slide":18,"text":"sample_note.txt: expected findings","textPreview":"sample_note.txt: expected findings","textChars":34,"textLines":1,"bbox":[120,412,257,48]}
+{"kind":"shape","id":"sh/l87ed8ba","slide":18,"bbox":[458,188,330,360]}
+{"kind":"textbox","id":"sh/sneloj2t","slide":18,"text":"Token dominio","textPreview":"Token dominio","textChars":13,"textLines":1,"bbox":[482,216,230,28]}
+{"kind":"textbox","id":"sh/32lszqtc","slide":18,"text":"Cyber","textPreview":"Cyber","textChars":5,"textLines":1,"bbox":[482,272,116,24]}
+{"kind":"textbox","id":"sh/ahoza1gv","slide":18,"text":"TRIDENTSYNC","textPreview":"TRIDENTSYNC","textChars":11,"textLines":1,"bbox":[602,272,150,24]}
+{"kind":"textbox","id":"sh/lwval87e","slide":18,"text":"Information","textPreview":"Information","textChars":11,"textLines":1,"bbox":[482,330,116,24]}
+{"kind":"textbox","id":"sh/wb2hwfyx","slide":18,"text":"REPLACE-FRAGO","textPreview":"REPLACE-FRAGO","textChars":13,"textLines":1,"bbox":[602,330,150,24]}
+{"kind":"textbox","id":"sh/sji5snel","slide":18,"text":"Cognitive","textPreview":"Cognitive","textChars":9,"textLines":1,"bbox":[482,388,116,24]}
+{"kind":"textbox","id":"sh/h4byhgn2","slide":18,"text":"FALSE-ORDERS","textPreview":"FALSE-ORDERS","textChars":12,"textLines":1,"bbox":[602,388,150,24]}
+{"kind":"textbox","id":"sh/adsji5sn","slide":18,"text":"Physical","textPreview":"Physical","textChars":8,"textLines":1,"bbox":[482,446,116,24]}
+{"kind":"textbox","id":"sh/3ylc7u54","slide":18,"text":"NAVSHARE-COLLECT","textPreview":"NAVSHARE-COLLECT","textChars":16,"textLines":1,"bbox":[602,446,150,24]}
+{"kind":"shape","id":"sh/s72x4nap","slide":18,"bbox":[828,188,350,360]}
+{"kind":"textbox","id":"sh/lszqtcj6","slide":18,"text":"Ragionamento","textPreview":"Ragionamento","textChars":12,"textLines":1,"bbox":[854,216,230,28]}
+{"kind":"textbox","id":"sh/a5gbq1or","slide":18,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[854,270,20,24]}
+{"kind":"textbox","id":"sh/3m94fu18","slide":18,"text":"TridentSync e processo/persistence.","textPreview":"TridentSync e processo/persistence.","textChars":35,"textLines":1,"bbox":[882,270,252,47]}
+{"kind":"textbox","id":"sh/s36hcrmh","slide":18,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[854,317,20,24]}
+{"kind":"textbox","id":"sh/hoza1gvy","slide":18,"text":"replace_frago altera contenuto operativo.","textPreview":"replace_frago altera contenuto operativo.","textChars":41,"textLines":1,"bbox":[882,317,252,47]}
+{"kind":"textbox","id":"sh/r65wjudg","slide":18,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[854,364,20,24]}
+{"kind":"textbox","id":"sh/ylc7u54z","slide":18,"text":"Ordini falsi erodono fiducia decisionale.","textPreview":"Ordini falsi erodono fiducia decisionale.","textChars":41,"textLines":1,"bbox":[882,364,252,47]}
+{"kind":"textbox","id":"sh/9cvixcze","slide":18,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[854,411,20,24]}
+{"kind":"textbox","id":"sh/gr2p8nqx","slide":18,"text":"collect_navshare collega malware a dati navali.","textPreview":"collect_navshare collega malware a dati navali.","textChars":47,"textLines":1,"bbox":[882,411,252,47]}
+{"kind":"textbox","id":"sh/nih4byhg","slide":18,"text":"Flag composta","textPreview":"Flag composta","textChars":13,"textLines":1,"bbox":[76,584,220,24]}
+{"kind":"textbox","id":"sh/yxobm58z","slide":18,"text":"FLAG{TRIDENTSYNC_REPLACE-FRAGO_FALSE-ORDERS_NAVSHARE-COLLECT}","textPreview":"FLAG{TRIDENTSYNC_REPLACE-FRAGO_FALSE-ORDERS_NAVSHARE-COLLECT}","textChars":61,"textLines":1,"bbox":[76,610,1080,38]}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":18,"text":"TRIDENT SHIELD CTF | Guida di risoluzione","textPreview":"TRIDENT SHIELD CTF | Guida di risoluzione","textChars":41,"textLines":1,"bbox":[54,678,520,20]}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":18,"text":"18","textPreview":"18","textChars":2,"textLines":1,"bbox":[1180,674,46,24]}
+{"kind":"notes","id":"nt/3l2idy","slide":18,"text":""}
+{"kind":"slide","id":"sl/6x5xu8","slide":19,"title":"SOLUZIONE MODULO 5","textShapes":33}
+{"kind":"textbox","id":"sh/onyd0z61","slide":19,"text":"SOLUZIONE MODULO 5","textPreview":"SOLUZIONE MODULO 5","textChars":18,"textLines":1,"bbox":[54,38,360,28]}
+{"kind":"textbox","id":"sh/z25kb6xk","slide":19,"text":"Wargaming","textPreview":"Wargaming","textChars":9,"textLines":1,"bbox":[54,74,860,70]}
+{"kind":"shape","id":"sh/6hcrmhk3","slide":19,"bbox":[54,150,1172,1]}
+{"kind":"shape","id":"sh/dg7adsji","slide":19,"bbox":[68,188,350,360]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":19,"text":"Evidenze da leggere","textPreview":"Evidenze da leggere","textChars":19,"textLines":1,"bbox":[92,216,260,28]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":19,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[92,268,20,24]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":19,"text":"injects.csv: deepfake, GPS spoofing, legal leak","textPreview":"injects.csv: deepfake, GPS spoofing, legal leak","textChars":47,"textLines":1,"bbox":[120,268,257,48]}
+{"kind":"textbox","id":"sh/dsji5sne","slide":19,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[92,316,20,24]}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":19,"text":"roles.md: responsabilita decisionali","textPreview":"roles.md: responsabilita decisionali","textChars":36,"textLines":1,"bbox":[120,316,257,48]}
+{"kind":"textbox","id":"sh/q5o7qpg3","slide":19,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[92,364,20,24]}
+{"kind":"textbox","id":"sh/jqh0fepk","slide":19,"text":"decision-matrix.csv: punteggi e trade-off","textPreview":"decision-matrix.csv: punteggi e trade-off","textChars":41,"textLines":1,"bbox":[120,364,257,48]}
+{"kind":"textbox","id":"sh/8bat47y1","slide":19,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[92,412,20,24]}
+{"kind":"textbox","id":"sh/1w7mp0bi","slide":19,"text":"finale turno: missione ancora operativa","textPreview":"finale turno: missione ancora operativa","textChars":39,"textLines":1,"bbox":[120,412,257,48]}
+{"kind":"shape","id":"sh/qh0fepkz","slide":19,"bbox":[458,188,330,360]}
+{"kind":"textbox","id":"sh/j2t83itg","slide":19,"text":"Token dominio","textPreview":"Token dominio","textChars":13,"textLines":1,"bbox":[482,216,230,28]}
+{"kind":"textbox","id":"sh/8nqxs72x","slide":19,"text":"Cyber","textPreview":"Cyber","textChars":5,"textLines":1,"bbox":[482,272,116,24]}
+{"kind":"textbox","id":"sh/18jqh0fe","slide":19,"text":"ISOLATE-SPOOFING","textPreview":"ISOLATE-SPOOFING","textChars":16,"textLines":1,"bbox":[602,272,150,24]}
+{"kind":"textbox","id":"sh/ulwval87","slide":19,"text":"Information","textPreview":"Information","textChars":11,"textLines":1,"bbox":[482,330,116,24]}
+{"kind":"textbox","id":"sh/j6tovaho","slide":19,"text":"LEGAL-PA","textPreview":"LEGAL-PA","textChars":8,"textLines":1,"bbox":[602,330,150,24]}
+{"kind":"textbox","id":"sh/b2hwfyxo","slide":19,"text":"Cognitive","textPreview":"Cognitive","textChars":9,"textLines":1,"bbox":[482,388,116,24]}
+{"kind":"textbox","id":"sh/mhk3q5o7","slide":19,"text":"AUTH-COMMAND","textPreview":"AUTH-COMMAND","textChars":12,"textLines":1,"bbox":[602,388,150,24]}
+{"kind":"textbox","id":"sh/t83itgfm","slide":19,"text":"Physical","textPreview":"Physical","textChars":8,"textLines":1,"bbox":[482,446,116,24]}
+{"kind":"textbox","id":"sh/4nap4r65","slide":19,"text":"MANUAL-NAV","textPreview":"MANUAL-NAV","textChars":10,"textLines":1,"bbox":[602,446,150,24]}
+{"kind":"shape","id":"sh/bq1oryts","slide":19,"bbox":[828,188,350,360]}
+{"kind":"textbox","id":"sh/m58z25kb","slide":19,"text":"Ragionamento","textPreview":"Ragionamento","textChars":12,"textLines":1,"bbox":[854,216,230,28]}
+{"kind":"textbox","id":"sh/twra5gbq","slide":19,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[854,270,20,24]}
+{"kind":"textbox","id":"sh/4byhgn29","slide":19,"text":"Spoofing richiede isolamento tecnico.","textPreview":"Spoofing richiede isolamento tecnico.","textChars":37,"textLines":1,"bbox":[882,270,252,47]}
+{"kind":"textbox","id":"sh/bm58z25k","slide":19,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[854,317,20,24]}
+{"kind":"textbox","id":"sh/m1cfa9w3","slide":19,"text":"Legal/PA governano il leak informativo.","textPreview":"Legal/PA governano il leak informativo.","textChars":39,"textLines":1,"bbox":[882,317,252,47]}
+{"kind":"textbox","id":"sh/wval87ed","slide":19,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[854,364,20,24]}
+{"kind":"textbox","id":"sh/pg3ex0nu","slide":19,"text":"Autenticare comando neutralizza deepfake.","textPreview":"Autenticare comando neutralizza deepfake.","textChars":41,"textLines":1,"bbox":[882,364,252,47]}
+{"kind":"textbox","id":"sh/epkzupwb","slide":19,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[854,411,20,24]}
+{"kind":"textbox","id":"sh/7adsji5s","slide":19,"text":"Manual nav mantiene capacita fisica.","textPreview":"Manual nav mantiene capacita fisica.","textChars":36,"textLines":1,"bbox":[882,411,252,47]}
+{"kind":"textbox","id":"sh/w7mp0bi9","slide":19,"text":"Flag composta","textPreview":"Flag composta","textChars":13,"textLines":1,"bbox":[76,584,220,24]}
+{"kind":"textbox","id":"sh/psfil0rq","slide":19,"text":"FLAG{ISOLATE-SPOOFING_LEGAL-PA_AUTH-COMMAND_MANUAL-NAV}","textPreview":"FLAG{ISOLATE-SPOOFING_LEGAL-PA_AUTH-COMMAND_MANUAL-NAV}","textChars":55,"textLines":1,"bbox":[76,610,1080,38]}
+{"kind":"textbox","id":"sh/e1w7mp0b","slide":19,"text":"TRIDENT SHIELD CTF | Guida di risoluzione","textPreview":"TRIDENT SHIELD CTF | Guida di risoluzione","textChars":41,"textLines":1,"bbox":[54,678,520,20]}
+{"kind":"textbox","id":"sh/7mp0bi9s","slide":19,"text":"19","textPreview":"19","textChars":2,"textLines":1,"bbox":[1180,674,46,24]}
+{"kind":"notes","id":"nt/6x5xu8","slide":19,"text":""}
+{"kind":"slide","id":"sl/dg4y2x","slide":20,"title":"SOLUZIONE MODULO 6","textShapes":33}
+{"kind":"textbox","id":"sh/6xkf6dcb","slide":20,"text":"SOLUZIONE MODULO 6","textPreview":"SOLUZIONE MODULO 6","textChars":18,"textLines":1,"bbox":[54,38,360,28]}
+{"kind":"textbox","id":"sh/hk3q5o7q","slide":20,"text":"Hybrid Warfare","textPreview":"Hybrid Warfare","textChars":14,"textLines":1,"bbox":[54,74,860,70]}
+{"kind":"shape","id":"sh/oza1gvy9","slide":20,"bbox":[54,150,1172,1]}
+{"kind":"shape","id":"sh/zqtcj6to","slide":20,"bbox":[68,188,350,360]}
+{"kind":"textbox","id":"sh/65wjudg7","slide":20,"text":"Evidenze da leggere","textPreview":"Evidenze da leggere","textChars":19,"textLines":1,"bbox":[92,216,260,28]}
+{"kind":"textbox","id":"sh/hwfyxobm","slide":20,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[92,268,20,24]}
+{"kind":"textbox","id":"sh/obm58z25","slide":20,"text":"cyber-log.log: AIS-GW-01 e feed stale","textPreview":"cyber-log.log: AIS-GW-01 e feed stale","textChars":37,"textLines":1,"bbox":[120,268,257,48]}
+{"kind":"textbox","id":"sh/zupwb2hw","slide":20,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[92,316,20,24]}
+{"kind":"textbox","id":"sh/a9w3m94f","slide":20,"text":"telegram/x-posts: amplificazione coordinata","textPreview":"telegram/x-posts: amplificazione coordinata","textChars":43,"textLines":1,"bbox":[120,316,257,48]}
+{"kind":"textbox","id":"sh/8bat47y1","slide":20,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[92,364,20,24]}
+{"kind":"textbox","id":"sh/1w7mp0bi","slide":20,"text":"x-posts: pressione su famiglie","textPreview":"x-posts: pressione su famiglie","textChars":30,"textLines":1,"bbox":[120,364,257,48]}
+{"kind":"textbox","id":"sh/q5o7qpg3","slide":20,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[92,412,20,24]}
+{"kind":"textbox","id":"sh/jqh0fepk","slide":20,"text":"ais.csv: impossible jump alle 04:30Z","textPreview":"ais.csv: impossible jump alle 04:30Z","textChars":36,"textLines":1,"bbox":[120,412,257,48]}
+{"kind":"shape","id":"sh/8nqxs72x","slide":20,"bbox":[458,188,330,360]}
+{"kind":"textbox","id":"sh/18jqh0fe","slide":20,"text":"Token dominio","textPreview":"Token dominio","textChars":13,"textLines":1,"bbox":[482,216,230,28]}
+{"kind":"textbox","id":"sh/qh0fepkz","slide":20,"text":"Cyber","textPreview":"Cyber","textChars":5,"textLines":1,"bbox":[482,272,116,24]}
+{"kind":"textbox","id":"sh/j2t83itg","slide":20,"text":"AIS-GW","textPreview":"AIS-GW","textChars":6,"textLines":1,"bbox":[602,272,150,24]}
+{"kind":"textbox","id":"sh/crmhk3q5","slide":20,"text":"Information","textPreview":"Information","textChars":11,"textLines":1,"bbox":[482,330,116,24]}
+{"kind":"textbox","id":"sh/1cfa9w3m","slide":20,"text":"COORD-NARRATIVE","textPreview":"COORD-NARRATIVE","textChars":15,"textLines":1,"bbox":[602,330,150,24]}
+{"kind":"textbox","id":"sh/5wjudg7a","slide":20,"text":"Cognitive","textPreview":"Cognitive","textChars":9,"textLines":1,"bbox":[482,388,116,24]}
+{"kind":"textbox","id":"sh/gbq1oryt","slide":20,"text":"FAMILY-PRESSURE","textPreview":"FAMILY-PRESSURE","textChars":15,"textLines":1,"bbox":[602,388,150,24]}
+{"kind":"textbox","id":"sh/nuxc3ylc","slide":20,"text":"Physical","textPreview":"Physical","textChars":8,"textLines":1,"bbox":[482,446,116,24]}
+{"kind":"textbox","id":"sh/y90je9cv","slide":20,"text":"IMPOSSIBLE-JUMP","textPreview":"IMPOSSIBLE-JUMP","textChars":15,"textLines":1,"bbox":[602,446,150,24]}
+{"kind":"shape","id":"sh/58z25kb6","slide":20,"bbox":[828,188,350,360]}
+{"kind":"textbox","id":"sh/gn29gr2p","slide":20,"text":"Ragionamento","textPreview":"Ragionamento","textChars":12,"textLines":1,"bbox":[854,216,230,28]}
+{"kind":"textbox","id":"sh/n29gr2p8","slide":20,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[854,270,20,24]}
+{"kind":"textbox","id":"sh/yhgn29gr","slide":20,"text":"Gateway AIS e punto tecnico.","textPreview":"Gateway AIS e punto tecnico.","textChars":28,"textLines":1,"bbox":[882,270,252,47]}
+{"kind":"textbox","id":"sh/5kb6xkf6","slide":20,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[854,317,20,24]}
+{"kind":"textbox","id":"sh/czed8v6p","slide":20,"text":"Social convergono su una narrativa.","textPreview":"Social convergono su una narrativa.","textChars":35,"textLines":1,"bbox":[882,317,252,47]}
+{"kind":"textbox","id":"sh/qtcj6tov","slide":20,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[854,364,20,24]}
+{"kind":"textbox","id":"sh/je9cvixc","slide":20,"text":"Famiglie usate come leva cognitiva.","textPreview":"Famiglie usate come leva cognitiva.","textChars":35,"textLines":1,"bbox":[882,364,252,47]}
+{"kind":"textbox","id":"sh/8z25kb6x","slide":20,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[854,411,20,24]}
+{"kind":"textbox","id":"sh/1gvy90je","slide":20,"text":"Salto AIS crea prova fisica apparente.","textPreview":"Salto AIS crea prova fisica apparente.","textChars":38,"textLines":1,"bbox":[882,411,252,47]}
+{"kind":"textbox","id":"sh/q1orytsv","slide":20,"text":"Flag composta","textPreview":"Flag composta","textChars":13,"textLines":1,"bbox":[76,584,220,24]}
+{"kind":"textbox","id":"sh/fmlkjm1c","slide":20,"text":"FLAG{AIS-GW_COORD-NARRATIVE_FAMILY-PRESSURE_IMPOSSIBLE-JUMP}","textPreview":"FLAG{AIS-GW_COORD-NARRATIVE_FAMILY-PRESSURE_IMPOSSIBLE-JUMP}","textChars":60,"textLines":1,"bbox":[76,610,1080,38]}
+{"kind":"textbox","id":"sh/87ed8bat","slide":20,"text":"TRIDENT SHIELD CTF | Guida di risoluzione","textPreview":"TRIDENT SHIELD CTF | Guida di risoluzione","textChars":41,"textLines":1,"bbox":[54,678,520,20]}
+{"kind":"textbox","id":"sh/xs72x4na","slide":20,"text":"20","textPreview":"20","textChars":2,"textLines":1,"bbox":[1180,674,46,24]}
+{"kind":"notes","id":"nt/dg4y2x","slide":20,"text":""}
+{"kind":"slide","id":"sl/37tq5w","slide":21,"title":"SOLUZIONE MODULO 7","textShapes":33}
+{"kind":"textbox","id":"sh/58z25kb6","slide":21,"text":"SOLUZIONE MODULO 7","textPreview":"SOLUZIONE MODULO 7","textChars":18,"textLines":1,"bbox":[54,38,360,28]}
+{"kind":"textbox","id":"sh/yhgn29gr","slide":21,"text":"AI Generativa e fiducia","textPreview":"AI Generativa e fiducia","textChars":23,"textLines":1,"bbox":[54,74,860,70]}
+{"kind":"shape","id":"sh/n29gr2p8","slide":21,"bbox":[54,150,1172,1]}
+{"kind":"shape","id":"sh/gbq1oryt","slide":21,"bbox":[68,188,350,360]}
+{"kind":"textbox","id":"sh/5wjudg7a","slide":21,"text":"Evidenze da leggere","textPreview":"Evidenze da leggere","textChars":19,"textLines":1,"bbox":[92,216,260,28]}
+{"kind":"textbox","id":"sh/y90je9cv","slide":21,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[92,268,20,24]}
+{"kind":"textbox","id":"sh/nuxc3ylc","slide":21,"text":"deepfake-analysis.txt: labiale, blink, room tone","textPreview":"deepfake-analysis.txt: labiale, blink, room tone","textChars":48,"textLines":1,"bbox":[120,268,257,48]}
+{"kind":"textbox","id":"sh/cbulwval","slide":21,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[92,316,20,24]}
+{"kind":"textbox","id":"sh/5sneloj2","slide":21,"text":"phishing_llm.eml: SPF softfail e IP anomalo","textPreview":"phishing_llm.eml: SPF softfail e IP anomalo","textChars":43,"textLines":1,"bbox":[120,316,257,48]}
+{"kind":"textbox","id":"sh/tcj6tova","slide":21,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[92,364,20,24]}
+{"kind":"textbox","id":"sh/0rqd4vmt","slide":21,"text":"source-verification.md: controlli out-of-band","textPreview":"source-verification.md: controlli out-of-band","textChars":45,"textLines":1,"bbox":[120,364,257,48]}
+{"kind":"textbox","id":"sh/b6xkf6dc","slide":21,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[92,412,20,24]}
+{"kind":"textbox","id":"sh/il0rqd4v","slide":21,"text":"raccomandazione: nessun cambio senza auth","textPreview":"raccomandazione: nessun cambio senza auth","textChars":41,"textLines":1,"bbox":[120,412,257,48]}
+{"kind":"shape","id":"sh/t47y1kre","slide":21,"bbox":[458,188,330,360]}
+{"kind":"textbox","id":"sh/0je9cvix","slide":21,"text":"Token dominio","textPreview":"Token dominio","textChars":13,"textLines":1,"bbox":[482,216,230,28]}
+{"kind":"textbox","id":"sh/byhgn29g","slide":21,"text":"Cyber","textPreview":"Cyber","textChars":5,"textLines":1,"bbox":[482,272,116,24]}
+{"kind":"textbox","id":"sh/idonyd0z","slide":21,"text":"SPF-SOFTFAIL","textPreview":"SPF-SOFTFAIL","textChars":12,"textLines":1,"bbox":[602,272,150,24]}
+{"kind":"textbox","id":"sh/p0bi9s36","slide":21,"text":"Information","textPreview":"Information","textChars":11,"textLines":1,"bbox":[482,330,116,24]}
+{"kind":"textbox","id":"sh/0fepkzup","slide":21,"text":"SYNTH-MEDIA","textPreview":"SYNTH-MEDIA","textChars":11,"textLines":1,"bbox":[602,330,150,24]}
+{"kind":"textbox","id":"sh/cbulwval","slide":21,"text":"Cognitive","textPreview":"Cognitive","textChars":9,"textLines":1,"bbox":[482,388,116,24]}
+{"kind":"textbox","id":"sh/5sneloj2","slide":21,"text":"TRUST-VERIFY","textPreview":"TRUST-VERIFY","textChars":12,"textLines":1,"bbox":[602,388,150,24]}
+{"kind":"textbox","id":"sh/u54zidon","slide":21,"text":"Physical","textPreview":"Physical","textChars":8,"textLines":1,"bbox":[482,446,116,24]}
+{"kind":"textbox","id":"sh/nqxs72x4","slide":21,"text":"NO-WITHDRAWAL","textPreview":"NO-WITHDRAWAL","textChars":13,"textLines":1,"bbox":[602,446,150,24]}
+{"kind":"shape","id":"sh/czed8v6p","slide":21,"bbox":[828,188,350,360]}
+{"kind":"textbox","id":"sh/5kb6xkf6","slide":21,"text":"Ragionamento","textPreview":"Ragionamento","textChars":12,"textLines":1,"bbox":[854,216,230,28]}
+{"kind":"textbox","id":"sh/ytsvu9kn","slide":21,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[854,270,20,24]}
+{"kind":"textbox","id":"sh/neloj2t8","slide":21,"text":"SPF softfail e segnale tecnico.","textPreview":"SPF softfail e segnale tecnico.","textChars":31,"textLines":1,"bbox":[882,270,252,47]}
+{"kind":"textbox","id":"sh/gn29gr2p","slide":21,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[854,317,20,24]}
+{"kind":"textbox","id":"sh/58z25kb6","slide":21,"text":"Video/audio sono media sintetici.","textPreview":"Video/audio sono media sintetici.","textChars":33,"textLines":1,"bbox":[882,317,252,47]}
+{"kind":"textbox","id":"sh/z25kb6xk","slide":21,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[854,364,20,24]}
+{"kind":"textbox","id":"sh/6hcrmhk3","slide":21,"text":"Fiducia recuperata verificando fonte.","textPreview":"Fiducia recuperata verificando fonte.","textChars":37,"textLines":1,"bbox":[882,364,252,47]}
+{"kind":"textbox","id":"sh/d8v6psfi","slide":21,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[854,411,20,24]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":21,"text":"Nessun ritiro evita effetto operativo.","textPreview":"Nessun ritiro evita effetto operativo.","textChars":38,"textLines":1,"bbox":[882,411,252,47]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":21,"text":"Flag composta","textPreview":"Flag composta","textChars":13,"textLines":1,"bbox":[76,584,220,24]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":21,"text":"FLAG{SPF-SOFTFAIL_SYNTH-MEDIA_TRUST-VERIFY_NO-WITHDRAWAL}","textPreview":"FLAG{SPF-SOFTFAIL_SYNTH-MEDIA_TRUST-VERIFY_NO-WITHDRAWAL}","textChars":57,"textLines":1,"bbox":[76,610,1080,38]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":21,"text":"TRIDENT SHIELD CTF | Guida di risoluzione","textPreview":"TRIDENT SHIELD CTF | Guida di risoluzione","textChars":41,"textLines":1,"bbox":[54,678,520,20]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":21,"text":"21","textPreview":"21","textChars":2,"textLines":1,"bbox":[1180,674,46,24]}
+{"kind":"notes","id":"nt/37tq5w","slide":21,"text":""}
+{"kind":"slide","id":"sl/b8l6xf","slide":22,"title":"SOLUZIONE FINALE","textShapes":33}
+{"kind":"textbox","id":"sh/4vmtwra5","slide":22,"text":"SOLUZIONE FINALE","textPreview":"SOLUZIONE FINALE","textChars":16,"textLines":1,"bbox":[54,38,360,28]}
+{"kind":"textbox","id":"sh/bat47y1k","slide":22,"text":"Blue Team Recovery Operations","textPreview":"Blue Team Recovery Operations","textChars":29,"textLines":1,"bbox":[54,74,860,70]}
+{"kind":"shape","id":"sh/mp0bi9s3","slide":22,"bbox":[54,150,1172,1]}
+{"kind":"shape","id":"sh/tsvu9kni","slide":22,"bbox":[68,188,350,360]}
+{"kind":"textbox","id":"sh/47y1kre1","slide":22,"text":"Evidenze da leggere","textPreview":"Evidenze da leggere","textChars":19,"textLines":1,"bbox":[92,216,260,28]}
+{"kind":"textbox","id":"sh/bm58z25k","slide":22,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[92,268,20,24]}
+{"kind":"textbox","id":"sh/m1cfa9w3","slide":22,"text":"final-brief.md: condizioni di successo","textPreview":"final-brief.md: condizioni di successo","textChars":38,"textLines":1,"bbox":[120,268,257,48]}
+{"kind":"textbox","id":"sh/twra5gbq","slide":22,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[92,316,20,24]}
+{"kind":"textbox","id":"sh/4byhgn29","slide":22,"text":"final-scorecard.csv: pesi di valutazione","textPreview":"final-scorecard.csv: pesi di valutazione","textChars":40,"textLines":1,"bbox":[120,316,257,48]}
+{"kind":"textbox","id":"sh/m58z25kb","slide":22,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[92,364,20,24]}
+{"kind":"textbox","id":"sh/bq1oryts","slide":22,"text":"tutti i moduli: IOC, timeline, decision log","textPreview":"tutti i moduli: IOC, timeline, decision log","textChars":43,"textLines":1,"bbox":[120,364,257,48]}
+{"kind":"textbox","id":"sh/4byhgn29","slide":22,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[92,412,20,24]}
+{"kind":"textbox","id":"sh/twra5gbq","slide":22,"text":"dashboard: score motivato con prove","textPreview":"dashboard: score motivato con prove","textChars":35,"textLines":1,"bbox":[120,412,257,48]}
+{"kind":"shape","id":"sh/mhk3q5o7","slide":22,"bbox":[458,188,330,360]}
+{"kind":"textbox","id":"sh/b2hwfyxo","slide":22,"text":"Token dominio","textPreview":"Token dominio","textChars":13,"textLines":1,"bbox":[482,216,230,28]}
+{"kind":"textbox","id":"sh/4nap4r65","slide":22,"text":"Cyber","textPreview":"Cyber","textChars":5,"textLines":1,"bbox":[482,272,116,24]}
+{"kind":"textbox","id":"sh/t83itgfm","slide":22,"text":"C2-BLOCKED","textPreview":"C2-BLOCKED","textChars":10,"textLines":1,"bbox":[602,272,150,24]}
+{"kind":"textbox","id":"sh/mp0bi9s3","slide":22,"text":"Information","textPreview":"Information","textChars":11,"textLines":1,"bbox":[482,330,116,24]}
+{"kind":"textbox","id":"sh/bat47y1k","slide":22,"text":"FRAGO-SIGNED","textPreview":"FRAGO-SIGNED","textChars":12,"textLines":1,"bbox":[602,330,150,24]}
+{"kind":"textbox","id":"sh/3ex0nuxc","slide":22,"text":"Cognitive","textPreview":"Cognitive","textChars":9,"textLines":1,"bbox":[482,388,116,24]}
+{"kind":"textbox","id":"sh/at47y1kr","slide":22,"text":"TRUST-RESTORED","textPreview":"TRUST-RESTORED","textChars":14,"textLines":1,"bbox":[602,388,150,24]}
+{"kind":"textbox","id":"sh/lkjm1cfa","slide":22,"text":"Physical","textPreview":"Physical","textChars":8,"textLines":1,"bbox":[482,446,116,24]}
+{"kind":"textbox","id":"sh/szqtcj6t","slide":22,"text":"MISSION-OPERATIONAL","textPreview":"MISSION-OPERATIONAL","textChars":19,"textLines":1,"bbox":[602,446,150,24]}
+{"kind":"shape","id":"sh/32lszqtc","slide":22,"bbox":[828,188,350,360]}
+{"kind":"textbox","id":"sh/ahoza1gv","slide":22,"text":"Ragionamento","textPreview":"Ragionamento","textChars":12,"textLines":1,"bbox":[854,216,230,28]}
+{"kind":"textbox","id":"sh/l87ed8ba","slide":22,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[854,270,20,24]}
+{"kind":"textbox","id":"sh/sneloj2t","slide":22,"text":"C2 bloccato e persistence rimossa.","textPreview":"C2 bloccato e persistence rimossa.","textChars":34,"textLines":1,"bbox":[882,270,252,47]}
+{"kind":"textbox","id":"sh/3q5o7qpg","slide":22,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[854,317,20,24]}
+{"kind":"textbox","id":"sh/e9cvixcz","slide":22,"text":"FRAGO verificato ristabilisce fonte ufficiale.","textPreview":"FRAGO verificato ristabilisce fonte ufficiale.","textChars":46,"textLines":1,"bbox":[882,317,252,47]}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":22,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[854,364,20,24]}
+{"kind":"textbox","id":"sh/dsji5sne","slide":22,"text":"Comando autenticato recupera fiducia.","textPreview":"Comando autenticato recupera fiducia.","textChars":37,"textLines":1,"bbox":[882,364,252,47]}
+{"kind":"textbox","id":"sh/61032lsz","slide":22,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[854,411,20,24]}
+{"kind":"textbox","id":"sh/vmtwra5g","slide":22,"text":"Missione continua con rotta verificata.","textPreview":"Missione continua con rotta verificata.","textChars":39,"textLines":1,"bbox":[882,411,252,47]}
+{"kind":"textbox","id":"sh/oj2t83it","slide":22,"text":"Flag composta","textPreview":"Flag composta","textChars":13,"textLines":1,"bbox":[76,584,220,24]}
+{"kind":"textbox","id":"sh/d4vmtwra","slide":22,"text":"FLAG{C2-BLOCKED_FRAGO-SIGNED_TRUST-RESTORED_MISSION-OPERATIONAL}","textPreview":"FLAG{C2-BLOCKED_FRAGO-SIGNED_TRUST-RESTORED_MISSION-OPERATIONAL}","textChars":64,"textLines":1,"bbox":[76,610,1080,38]}
+{"kind":"textbox","id":"sh/6dcbulwv","slide":22,"text":"TRIDENT SHIELD CTF | Guida di risoluzione","textPreview":"TRIDENT SHIELD CTF | Guida di risoluzione","textChars":41,"textLines":1,"bbox":[54,678,520,20]}
+{"kind":"textbox","id":"sh/vy90je9c","slide":22,"text":"22","textPreview":"22","textChars":2,"textLines":1,"bbox":[1180,674,46,24]}
+{"kind":"notes","id":"nt/b8l6xf","slide":22,"text":""}
+{"kind":"slide","id":"sl/d0bav5","slide":23,"title":"FACILITATORE","textShapes":18}
+{"kind":"textbox","id":"sh/u18jqh0f","slide":23,"text":"FACILITATORE","textPreview":"FACILITATORE","textChars":12,"textLines":1,"bbox":[54,38,360,28]}
+{"kind":"textbox","id":"sh/1orytsvu","slide":23,"text":"Sequenza consigliata in aula","textPreview":"Sequenza consigliata in aula","textChars":28,"textLines":1,"bbox":[54,74,860,70]}
+{"kind":"shape","id":"sh/c7u54zid","slide":23,"bbox":[54,150,1172,1]}
+{"kind":"shape","id":"sh/judg7ads","slide":23,"bbox":[94,190,30,30]}
+{"kind":"textbox","id":"sh/u9knih4b","slide":23,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[94,194,30,24]}
+{"kind":"textbox","id":"sh/1032lszq","slide":23,"text":"Brief scenario: 10 minuti.","textPreview":"Brief scenario: 10 minuti.","textChars":26,"textLines":1,"bbox":[138,192,816,32]}
+{"kind":"shape","id":"sh/cfa9w3m9","slide":23,"bbox":[94,246,30,30]}
+{"kind":"textbox","id":"sh/nyd0z610","slide":23,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[94,250,30,24]}
+{"kind":"textbox","id":"sh/udg7adsj","slide":23,"text":"Moduli 1-2: analisi guidata evidenze e CTI.","textPreview":"Moduli 1-2: analisi guidata evidenze e CTI.","textChars":43,"textLines":1,"bbox":[138,248,816,32]}
+{"kind":"shape","id":"sh/czed8v6p","slide":23,"bbox":[94,302,30,30]}
+{"kind":"textbox","id":"sh/5kb6xkf6","slide":23,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[94,306,30,24]}
+{"kind":"textbox","id":"sh/ytsvu9kn","slide":23,"text":"Modulo 3: esercizio a squadre Red/Blue con scoring.","textPreview":"Modulo 3: esercizio a squadre Red/Blue con scoring.","textChars":51,"textLines":1,"bbox":[138,304,816,32]}
+{"kind":"shape","id":"sh/neloj2t8","slide":23,"bbox":[94,358,30,30]}
+{"kind":"textbox","id":"sh/cbulwval","slide":23,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[94,362,30,24]}
+{"kind":"textbox","id":"sh/5sneloj2","slide":23,"text":"Modulo 4: debrief tecnico malware da artefatti sicuri.","textPreview":"Modulo 4: debrief tecnico malware da artefatti sicuri.","textChars":54,"textLines":1,"bbox":[138,360,816,32]}
+{"kind":"shape","id":"sh/u54zidon","slide":23,"bbox":[94,414,30,30]}
+{"kind":"textbox","id":"sh/nqxs72x4","slide":23,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[94,418,30,24]}
+{"kind":"textbox","id":"sh/gbq1oryt","slide":23,"text":"Moduli 5-7: decisioni, hybrid campaign e AI trust.","textPreview":"Moduli 5-7: decisioni, hybrid campaign e AI trust.","textChars":50,"textLines":1,"bbox":[138,416,816,32]}
+{"kind":"shape","id":"sh/5wjudg7a","slide":23,"bbox":[94,470,30,30]}
+{"kind":"textbox","id":"sh/t47y1kre","slide":23,"text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[94,474,30,24]}
+{"kind":"textbox","id":"sh/0je9cvix","slide":23,"text":"Final Mission: report, dashboard, discussione sulla resilienza.","textPreview":"Final Mission: report, dashboard, discussione sulla resilienza.","textChars":63,"textLines":1,"bbox":[138,472,816,32]}
+{"kind":"shape","id":"sh/byhgn29g","slide":23,"bbox":[980,208,160,310]}
+{"kind":"textbox","id":"sh/idonyd0z","slide":23,"text":"Nota","textPreview":"Nota","textChars":4,"textLines":1,"bbox":[1004,236,90,30]}
+{"kind":"textbox","id":"sh/tcj6tova","slide":23,"text":"Usare instructor/solutions.md solo per debrief o verifica finale.","textPreview":"Usare instructor/solutions.md solo per debrief o verifica finale.","textChars":65,"textLines":1,"bbox":[1004,290,105,150]}
+{"kind":"textbox","id":"sh/0rqd4vmt","slide":23,"text":"TRIDENT SHIELD CTF | Guida di risoluzione","textPreview":"TRIDENT SHIELD CTF | Guida di risoluzione","textChars":41,"textLines":1,"bbox":[54,678,520,20]}
+{"kind":"textbox","id":"sh/b6xkf6dc","slide":23,"text":"23","textPreview":"23","textChars":2,"textLines":1,"bbox":[1180,674,46,24]}
+{"kind":"notes","id":"nt/d0bav5","slide":23,"text":""}

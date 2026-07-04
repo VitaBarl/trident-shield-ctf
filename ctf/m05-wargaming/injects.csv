@@ -1,0 +1,6 @@
+turn,time,event,primary_domain,decision_required
+1,08:00Z,Satellite offline over patrol box,physical,Reassign ISR or hold current route
+2,08:20Z,Deepfake video of commander orders withdrawal,cognitive,Authenticate command and brief crews
+3,08:45Z,GPS spoofing affects two navigation consoles,cyber,Switch to alternate navigation and isolate source
+4,09:10Z,Leaked legal memo appears online,informational,Coordinate Legal and Public Affairs response
+5,09:40Z,Distress call received near manipulated patrol box,physical,Prioritize rescue while preserving force protection

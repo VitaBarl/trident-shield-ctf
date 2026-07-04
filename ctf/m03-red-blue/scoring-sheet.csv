@@ -1,0 +1,6 @@
+turn,red_action,blue_action,red_points,blue_points,mission_effect
+1,Spear Phishing,SIEM Correlation,10,15,initial access contested
+2,Credential Theft,EDR Isolation,15,15,credential replay contained if isolation timely
+3,Lateral Movement,Firewall Block,20,10,C2 disrupted after evidence
+4,Information Amplification,Public Affairs Response,10,10,cognitive impact reduced
+5,Order Tampering,Incident Response,20,20,mission remains operational if FRAGO restored
