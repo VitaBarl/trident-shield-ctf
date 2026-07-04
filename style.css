@@ -251,15 +251,6 @@ p { margin-top: 0; }
   box-shadow: none;
 }
 
-.footer-css-title {
-  margin: 0;
-  color: #071013;
-  font-size: clamp(1.5rem, 3vw, 2.8rem);
-  font-weight: 950;
-  line-height: 1;
-  text-align: center;
-}
-
 .footer-banner {
   display: block;
   width: 100%;
